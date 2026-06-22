@@ -8,7 +8,6 @@ class AppColors {
   static const Color cream = Color(0xFFFDF8EF);
   static const Color textDark = Color(0xFF2B1A14);
 }
-
 class AppTheme {
   static ThemeData get theme {
     final base = ThemeData.light();
