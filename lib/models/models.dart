@@ -2,56 +2,60 @@ class Parva {
   final int number;
   final String teluguName;
   final String englishName;
-  final String sanskritName;
   final String description;
-  final List<String> keyEvents;
+  final String teluguDescription;
+  final int chapters;
+  final String icon;
 
   const Parva({
     required this.number,
     required this.teluguName,
     required this.englishName,
-    required this.sanskritName,
     required this.description,
-    required this.keyEvents,
+    required this.teluguDescription,
+    required this.chapters,
+    required this.icon,
   });
 }
 
 class Sloka {
-  final String chapterTitle;
-  final String chapterTeluguTitle;
-  final String verseNumber;
+  final int number;
+  final int chapter;
   final String sanskrit;
-  final String transliteration;
+  final String telugu;
+  final String english;
+  final String meaning;
   final String teluguMeaning;
-  final String englishMeaning;
 
   const Sloka({
-    required this.chapterTitle,
-    required this.chapterTeluguTitle,
-    required this.verseNumber,
+    required this.number,
+    required this.chapter,
     required this.sanskrit,
-    required this.transliteration,
+    required this.telugu,
+    required this.english,
+    required this.meaning,
     required this.teluguMeaning,
-    required this.englishMeaning,
   });
 }
 
-class CharacterProfile {
+class Character {
   final String name;
   final String teluguName;
-  final String title;
-  final String relation;
+  final String role;
+  final String teluguRole;
   final String description;
-  final List<String> traits;
+  final String teluguDescription;
   final String icon;
+  final List<String> qualities;
 
-  const CharacterProfile({
+  const Character({
     required this.name,
     required this.teluguName,
-    required this.title,
-    required this.relation,
+    required this.role,
+    required this.teluguRole,
     required this.description,
-    required this.traits,
+    required this.teluguDescription,
     required this.icon,
+    required this.qualities,
   });
 }

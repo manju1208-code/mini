@@ -35,14 +35,14 @@ class ParvamsScreen extends StatelessWidget {
                     leading: CircleAvatar(
                       backgroundColor: AppColors.lightGold,
                       child: Text(
-                        '${parva.number}',
+                        '${parva.number ?? ''}',
                         style: const TextStyle(color: AppColors.maroon, fontWeight: FontWeight.bold),
                       ),
                     ),
-                    title: Text(parva.englishName, style: const TextStyle(fontWeight: FontWeight.bold)),
+                    title: Text(parva.englishName ?? '', style: const TextStyle(fontWeight: FontWeight.bold)),
                     subtitle: Padding(
                       padding: const EdgeInsets.only(top: 3),
-                      child: Text(parva.teluguName, style: const TextStyle(color: AppColors.maroon)),
+                      child: Text(parva.teluguName ?? '', style: const TextStyle(color: AppColors.maroon)),
                     ),
                     trailing: const Icon(Icons.chevron_right_rounded, color: AppColors.gold),
                     onTap: () {

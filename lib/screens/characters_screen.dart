@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import '../theme/app_theme.dart';
-import '../data/characters_data.dart';
-import '../widgets/app_drawer.dart';
-import 'character_detail_screen.dart';
+import '../data/app_data.dart';
+import '../utils/app_colors.dart';
 
 class CharactersScreen extends StatelessWidget {
   const CharactersScreen({super.key});
@@ -10,72 +8,139 @@ class CharactersScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('పాత్రలు')),
-      drawer: const AppDrawer(currentRoute: 'characters'),
-      body: Column(
-        children: [
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(18),
-            color: AppColors.maroon,
-            child: const Text(
-              'Meet the legendary heroes, sages, and rulers whose choices shaped the destiny of the Mahabharatam.',
-              style: TextStyle(color: Colors.white70, fontSize: 13, height: 1.4),
+      backgroundColor: AppColors.background,
+      appBar: AppBar(
+        title: const Column(
+          children: [
+            Text('ముఖ్య పాత్రలు', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            Text('Key Characters', style: TextStyle(fontSize: 12, color: Colors.white70)),
+          ],
+        ),
+        backgroundColor: const Color(0xFF6A1B9A),
+      ),
+      body: ListView.builder(
+        padding: const EdgeInsets.all(16),
+        itemCount: AppData.characters.length,
+        itemBuilder: (context, index) {
+          final char = AppData.characters[index];
+          return Container(
+            margin: const EdgeInsets.only(bottom: 16),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(16),
+              boxShadow: [
+                BoxShadow(
+                  color: const Color(0xFF6A1B9A).withOpacity(0.08),
+                  blurRadius: 8,
+                  offset: const Offset(0, 2),
+                ),
+              ],
             ),
-          ),
-          Expanded(
-            child: GridView.builder(
-              padding: const EdgeInsets.all(14),
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
-                crossAxisSpacing: 12,
-                mainAxisSpacing: 12,
-                childAspectRatio: 0.92,
-              ),
-              itemCount: charactersList.length,
-              itemBuilder: (context, index) {
-                final c = charactersList[index];
-                return InkWell(
-                  borderRadius: BorderRadius.circular(16),
-                  onTap: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (_) => CharacterDetailScreen(character: c)),
-                    );
-                  },
-                  child: Container(
-                    padding: const EdgeInsets.all(14),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(16),
-                      boxShadow: [BoxShadow(color: AppColors.maroon.withOpacity(0.08), blurRadius: 6, offset: const Offset(0, 2))],
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        CircleAvatar(
-                          radius: 24,
-                          backgroundColor: AppColors.lightGold,
-                          child: Text(c.icon, style: const TextStyle(fontSize: 22)),
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        width: 60,
+                        height: 60,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF6A1B9A).withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(14),
                         ),
-                        const Spacer(),
-                        Text(c.name, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: AppColors.textDark)),
-                        const SizedBox(height: 2),
-                        Text(c.teluguName, style: const TextStyle(fontSize: 12, color: AppColors.maroon)),
-                        const SizedBox(height: 4),
-                        Text(
-                          c.title,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(fontSize: 11, color: Colors.grey, height: 1.3),
+                        child: Center(
+                          child: Text(char.icon, style: const TextStyle(fontSize: 30)),
                         ),
-                      ],
+                      ),
+                      const SizedBox(width: 14),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              char.teluguName,
+                              style: const TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xFF6A1B9A),
+                              ),
+                            ),
+                            Text(
+                              char.name,
+                              style: const TextStyle(
+                                fontSize: 14,
+                                color: AppColors.textMedium,
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                              decoration: BoxDecoration(
+                                color: const Color(0xFF6A1B9A).withOpacity(0.1),
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                              child: Text(
+                                char.teluguRole,
+                                style: const TextStyle(
+                                  fontSize: 11,
+                                  color: Color(0xFF6A1B9A),
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 12),
+                  const Divider(color: AppColors.accent),
+                  const SizedBox(height: 8),
+                  Text(
+                    char.teluguDescription,
+                    style: const TextStyle(
+                      fontSize: 13,
+                      color: AppColors.textDark,
+                      height: 1.5,
                     ),
                   ),
-                );
-              },
+                  const SizedBox(height: 6),
+                  Text(
+                    char.description,
+                    style: const TextStyle(
+                      fontSize: 12,
+                      color: AppColors.textMedium,
+                      height: 1.4,
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 6,
+                    children: char.qualities.map((q) => Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                      decoration: BoxDecoration(
+                        color: AppColors.primary.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(color: AppColors.primary.withOpacity(0.2)),
+                      ),
+                      child: Text(
+                        q,
+                        style: const TextStyle(
+                          fontSize: 11,
+                          color: AppColors.primary,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    )).toList(),
+                  ),
+                ],
+              ),
             ),
-          ),
-        ],
+          );
+        },
       ),
     );
   }

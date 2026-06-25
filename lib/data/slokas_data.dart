@@ -1,845 +1,644 @@
 import '../models/models.dart';
 
 final List<Sloka> slokasList = [
-  // ================= CHAPTER 1 - ARJUNA VISHADA YOGA =================
+  // Chapter 1 - Arjuna Vishada Yoga
   const Sloka(
     chapterTitle: 'Chapter 1 - Arjuna Vishada Yoga',
-    chapterTeluguTitle: 'మొదటి అధ్యాయము - अर्जुनविषाद योगमु',
+    chapterTeluguTitle: 'అధ్యాయం 1 - అర్జున విషాద యోగం',
     verseNumber: '1.1',
-    sanskrit:
-        'धृतराष्ट्र उवाच।\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\nमामकाः पाण्डవాశ్చैव किमकुर्वत सञ्जय॥',
-    transliteration:
-        'dhritarashtra uvacha\ndharma-kshetre kuru-kshetre samaveta yuyutsavah\nmamakah pandavash chaiva kim akurvata sanjaya',
-    teluguMeaning:
-        'ధృతరాష్ట్రుడు పలికెను: ఓ సంజయా! ధర్మభూమియైన కురుక్షేత్రంలో యుద్ధం చేయాలనే కోరికతో సమకూడిన నా కుమారులు, పాండురాజు కుమారులు ఏమి చేశారు?',
-    englishMeaning:
-        'Dhritarashtra said: O Sanjaya, after my sons and the sons of Pandu assembled in the place of pilgrimage at Kurukshetra, desiring to fight, what did they do?',
+    sanskrit: 'ధృతరాష్ట్ర ఉవాచ |\nధర్మక్షేత్రే కురుక్షేత్రే సమవేతా యుయుత్సవః |\nమామకాః పాండవాశ్చైవ కిమకుర్వత సంజయ ||',
+    transliteration: 'dhṛtarāṣṭra uvāca | dharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ | māmakāḥ pāṇḍavāścaiva kimakurvata sañjaya ||',
+    teluguMeaning: 'ధృతరాష్ట్రుడు అన్నాడు: ఓ సంజయా! ధర్మక్షేత్రమైన కురుక్షేత్రంలో యుద్ధం చేయాలని సమావేశమైన నా పుత్రులు మరియు పాండు పుత్రులు ఏమి చేశారు?',
+    englishMeaning: 'Dhritarashtra said: O Sanjaya, what did my sons and the sons of Pandu do when they assembled on the holy field of Kurukshetra, eager for battle?',
   ),
   const Sloka(
     chapterTitle: 'Chapter 1 - Arjuna Vishada Yoga',
-    chapterTeluguTitle: 'మొదటి అధ్యాయము - అర్జునవిషాద యోగము',
-    verseNumber: '1.28',
-    sanskrit:
-        'अर्जुन उवाच।\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्।\nसीदन्ति मम गात्राणि मुखं च परिशुष्यति॥',
-    transliteration:
-        'arjuna uvacha\ndrishtvemam svajanam krishna yuyutsum samupasthitam\nsidanti mama gatrani mukham cha parishushyati',
-    teluguMeaning:
-        'అర్జునుడు పలికెను: ఓ కృష్ణా! యుద్ధం చేయడానికి ఇక్కడ చేరిన నా బంధువులను చూసి నా అవయవాలు అలసిపోతున్నాయి, నా నోరు ఎండిపోతోంది.',
-    englishMeaning:
-        'Arjuna said: My dear Krishna, seeing my friends and relatives present before me in such a fighting spirit, I feel the limbs of my body quivering and my mouth drying up.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 1 - Arjuna Vishada Yoga',
-    chapterTeluguTitle: 'మొదటి అధ్యాయము - అర్జునవిషాద యోగము',
-    verseNumber: '1.40',
-    sanskrit:
-        'अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः।\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः॥',
-    transliteration:
-        'adharma-bhibhavat krishna pradushyanti kula-striyah\nstrishu dushtasu varshneya jayate varna-sankarah',
-    teluguMeaning:
-        'ఓ కృష్ణా! అధర్మము పెరిగినప్పుడు కులస్త్రీలు కలుషితమవుతారు. స్త్రీలు కలుషితమైనప్పుడు సమాజంలో అవాంఛిత సంతానం (వర్ణసంకరం) ఏర్పడుతుంది.',
-    englishMeaning:
-        'When unrighteousness prevails, O Krishna, the women of the family become corrupt, and from the corruption of women, unwanted progeny ensues.',
+    chapterTeluguTitle: 'అధ్యాయం 1 - అర్జున విషాద యోగం',
+    verseNumber: '1.47',
+    sanskrit: 'ఏవముక్త్వార్జునః సంఖ్యే రథోపస్థ ఉపావిశత్ |\nవిసృజ్య సశరం చాపం శోకసంవిగ్నమానసః ||',
+    transliteration: 'evamuktvārjunaḥ saṅkhye rathopastha upāviśat | visṛjya saśaraṃ cāpaṃ śoka-saṃvigna-mānasaḥ ||',
+    teluguMeaning: 'ఇలా పలికిన అర్జునుడు రణభూమిలో రథంపై కూలబడ్డాడు. బాణాలతో సహా ధనుస్సును పక్కన పెట్టి, శోకంతో మనసు కలవరపడింది.',
+    englishMeaning: 'Having spoken thus on the battlefield, Arjuna sat down on the seat of the chariot, casting aside his bow and arrows, his mind overwhelmed with grief.',
   ),
 
-  // ================= CHAPTER 2 - SANKHYA YOGA =================
+  // Chapter 2 - Sankhya Yoga
   const Sloka(
     chapterTitle: 'Chapter 2 - Sankhya Yoga',
-    chapterTeluguTitle: 'రెండవ అధ్యాయము - సాంఖ్య యోగము',
-    verseNumber: '2.13',
-    sanskrit:
-        'देहीनोऽस्मिन्यथा देहे कौमारं यौवनं जरा।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति॥',
-    transliteration:
-        'dehino smin yatha dehe kaumaram yauvanam jara\ntatha dehantara-praptir dhiras tatra na muhyati',
-    teluguMeaning:
-        'జీవునికి ఈ శరీరంలో బాల్యము, యవ్వనము, ముసలితనము ఎలా వస్తాయో, మరణానంతరం మరో శరీరం కూడా అలాగే లభిస్తుంది. వివేకవంతుడైనవాడు దీనికి మోహపడడు.',
-    englishMeaning:
-        'As the embodied soul continuously passes, in this body, from boyhood to youth to old age, the soul similarly passes into another body at death. A wise man is not bewildered by such a change.',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
+    verseNumber: '2.11',
+    sanskrit: 'అశోచ్యానన్వశోచస్త్వం ప్రజ్ఞావాదాంశ్చ భాషసే |\nగతాసూనగతాసూంశ్చ నానుశోచంతి పండితాః ||',
+    transliteration: 'aśocyān anvaśocas tvaṃ prajñā-vādāṃś ca bhāṣase | gatāsūn agatāsūṃś ca nānuśocanti paṇḍitāḥ ||',
+    teluguMeaning: 'నువ్వు శోకించకూడని వారి గురించి శోకిస్తున్నావు, అయినా జ్ఞానపూర్వక మాటలు పలుకుతున్నావు. జ్ఞానులు మృతుల గురించి గాని జీవించిన వారి గురించి గాని శోకించరు.',
+    englishMeaning: 'You grieve for those who should not be grieved for, yet speak words of wisdom. The wise grieve neither for the living nor for the dead.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 2 - Sankhya Yoga',
-    chapterTeluguTitle: 'రెండవ అధ్యాయము - సాంఖ్య యోగము',
-    verseNumber: '2.14',
-    sanskrit:
-        'मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत॥',
-    transliteration:
-        'matra-sparshas-tu kaunteya shitoshna-sukha-duhkha-dah\nagamapayino nityas-tams-titikshasva bharata',
-    teluguMeaning:
-        'ఓ కౌంతేయా, ఇంద్రియాల స్పర్శ వలన శీతోష్ణములు, సుఖదుఃఖములు కలుగుతాయి. ఇవి వచ్చిపోయేవి, శాశ్వతం కావు. వాటిని సహించుట నేర్చుకో.',
-    englishMeaning:
-        'O son of Kunti, the contact of the senses with their objects gives rise to fleeting experiences of heat and cold, pleasure and pain. These are temporary and come and go; one must learn to tolerate them with patience.',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
+    verseNumber: '2.19',
+    sanskrit: 'య ఏనం వేత్తి హంతారం యశ్చైనం మన్యతే హతమ్ |\nఉభౌ తౌ న విజానీతో నాయం హంతి న హన్యతే ||',
+    transliteration: 'ya enaṃ vetti hantāraṃ yaś cainaṃ manyate hatam | ubhau tau na vijānīto nāyaṃ hanti na hanyate ||',
+    teluguMeaning: 'ఆత్మ చంపుతుందని భావించేవాడు, చంపబడుతుందని భావించేవాడు — ఇద్దరూ తెలుసుకోలేదు. ఆత్మ చంపదు, చంపబడదు.',
+    englishMeaning: 'He who thinks the soul is a slayer and he who thinks it is slain — both fail to perceive the truth. The soul neither slays nor is slain.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 2 - Sankhya Yoga',
-    chapterTeluguTitle: 'రెండవ అధ్యాయము - సాంఖ్య యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
     verseNumber: '2.20',
-    sanskrit:
-        'न जायते म्रियते वा कदाचि-\nन्नायं भूत्वा भविता वा न भूयः।\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे॥',
-    transliteration:
-        'na jayate mriyate va kadachin\nnayam bhutva bhavita va na bhuyah\najo nityah shashvato yam purano\nna hanyate hanyamane sharire',
-    teluguMeaning:
-        'ఆత్మ ఎన్నడూ పుట్టదు, చావదు. అది శాశ్వతమైనది, నిత్యమైనది, పురాతనమైనది. శరీరం నశించినా ఆత్మ నశించదు.',
-    englishMeaning:
-        'The soul is never born and never dies. It is eternal, ever-existing, and primeval. It is not destroyed when the body is destroyed.',
+    sanskrit: 'న జాయతే మ్రియతే వా కదాచిన్నాయం భూత్వా భవితా వా న భూయః |\nఅజో నిత్యః శాశ్వతోఽయం పురాణో న హన్యతే హన్యమానే శరీరే ||',
+    transliteration: 'na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ | ajo nityaḥ śāśvato\'yaṃ purāṇo na hanyate hanyamāne śarīre ||',
+    teluguMeaning: 'ఆత్మ ఎప్పుడూ పుట్టదు, చనిపోదు. ఒకసారి ఉన్నది మళ్ళీ ఉండకపోదు. అది పుట్టుకలేనిది, నిత్యమైనది, శాశ్వతమైనది, పురాతనమైనది. శరీరం చంపబడినా ఆత్మ చంపబడదు.',
+    englishMeaning: 'The soul is never born nor dies at any time. It has not come into being and will not come into being. It is unborn, eternal, ever-existing, and primeval. It is not slain when the body is slain.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 2 - Sankhya Yoga',
-    chapterTeluguTitle: 'రెండవ అధ్యాయము - సాంఖ్య యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
+    verseNumber: '2.22',
+    sanskrit: 'వాసాంసి జీర్ణాని యథా విహాయ నవాని గృహ్ణాతి నరోఽపరాణి |\nతథా శరీరాణి విహాయ జీర్ణాన్యన్యాని సంయాతి నవాని దేహీ ||',
+    transliteration: 'vāsāṃsi jīrṇāni yathā vihāya navāni gṛhṇāti naro\'parāṇi | tathā śarīrāṇi vihāya jīrṇāny anyāni saṃyāti navāni dehī ||',
+    teluguMeaning: 'మనిషి పాత బట్టలు విడిచి కొత్తవి ధరించినట్లే, ఆత్మ పాత శరీరాలను విడిచి కొత్త శరీరాలను పొందుతుంది.',
+    englishMeaning: 'Just as a person puts on new garments, giving up old ones, similarly the soul accepts new material bodies, giving up the old and useless ones.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 2 - Sankhya Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
     verseNumber: '2.47',
-    sanskrit:
-        'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥',
-    transliteration:
-        'karmany-evadhikaras-te ma phaleshu kadachana\nma karma-phala-hetur-bhur ma te sango stv-akarmani',
-    teluguMeaning:
-        'నీకు కర్మ చేయుట మీదనే అధికారము కలదు, దాని ఫలితముపై కాదు. కర్మఫలాన్ని ఆశించి కర్మ చేయకూడదు, అలాగని కర్మను విడిచిపెట్టకూడదు.',
-    englishMeaning:
-        'You have the right to perform your duty, but never to the fruits of your actions. Do not act with the fruit of action as your motive, nor let yourself be attached to inaction.',
+    sanskrit: 'కర్మణ్యేవాధికారస్తే మా ఫలేషు కదాచన |\nమా కర్మఫలహేతుర్భూర్మా తే సంగోఽస్త్వకర్మణి ||',
+    transliteration: 'karmaṇy evādhikāras te mā phaleṣu kadācana | mā karma-phala-hetur bhūr mā te saṅgo\'stv akarmaṇi ||',
+    teluguMeaning: 'నీకు కర్మ చేయడంలోనే అధికారం ఉంది, దాని ఫలాలపై ఎప్పుడూ లేదు. కర్మఫలానికి కారణమవ్వవద్దు, కర్మ చేయకపోవడంలో ఆసక్తి కూడా కలిగి ఉండకు.',
+    englishMeaning: 'You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 2 - Sankhya Yoga',
-    chapterTeluguTitle: 'రెండవ అధ్యాయము - సాంఖ్య యోగము',
-    verseNumber: '2.62-63',
-    sanskrit:
-        'क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति॥',
-    transliteration:
-        'krodhad bhavati sammohah sammohat smriti-vibhramah\nsmriti-bhramshad buddhi-nasho buddhi-nashat pranashyati',
-    teluguMeaning:
-        'క్రోధము నుండి మోహము కలుగుతుంది, మోహము నుండి జ్ఞాపకశక్తి భ్రమిస్తుంది, దాని వలన బుద్ధి నశిస్తుంది, బుద్ధి నశిస్తే మనిషి పూర్తిగా పతనమవుతాడు.',
-    englishMeaning:
-        'From anger comes delusion, from delusion the confusion of memory, from this the loss of reason, and from the loss of reason one is utterly ruined.',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
+    verseNumber: '2.48',
+    sanskrit: 'యోగస్థః కురు కర్మాణి సంగం త్యక్త్వా ధనంజయ |\nసిద్ధ్యసిద్ధ్యోః సమో భూత్వా సమత్వం యోగ ఉచ్యతే ||',
+    transliteration: 'yoga-sthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya | siddhy-asiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||',
+    teluguMeaning: 'ఓ ధనంజయా! యోగంలో స్థిరంగా ఉండి, ఆసక్తిని విడిచిపెట్టి కర్మలు చేయి. సిద్ధి అసిద్ధులలో సమంగా ఉండు. ఈ సమత్వమే యోగమని చెప్పబడుతుంది.',
+    englishMeaning: 'Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such equanimity is called yoga.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 2 - Sankhya Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
+    verseNumber: '2.62',
+    sanskrit: 'ధ్యాయతో విషయాన్పుంసః సంగస్తేషూపజాయతే |\nసంగాత్సంజాయతే కామః కామాత్క్రోధోఽభిజాయతే ||',
+    transliteration: 'dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate | saṅgāt sañjāyate kāmaḥ kāmāt krodho\'bhijāyate ||',
+    teluguMeaning: 'విషయాలను ధ్యానించే మనిషికి వాటిపై ఆసక్తి పుడుతుంది. ఆసక్తి నుండి కోరిక పుడుతుంది. కోరిక నుండి క్రోధం పుడుతుంది.',
+    englishMeaning: 'While contemplating the objects of the senses, one develops attachment to them. From attachment comes desire, and from desire comes anger.',
   ),
 
-  // ================= CHAPTER 3 - KARMA YOGA =================
+  // Chapter 3 - Karma Yoga
   const Sloka(
     chapterTitle: 'Chapter 3 - Karma Yoga',
-    chapterTeluguTitle: 'మూడవ అధ్యాయము - కర్మ యోగము',
-    verseNumber: '3.9',
-    sanskrit:
-        'यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः।\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर॥',
-    transliteration:
-        'yajnarthat karmano nyatra loko yam karma-bandhanah\ntad-artham karma kaunteya mukta-sangah samachara',
-    teluguMeaning:
-        'భగవదర్పణంగా చేసే యజ్ఞం కాకుండా, ఇతర పనుల వల్ల ఈ లోకంలో మనిషి కర్మబంధాలలో చిక్కుకుంటాడు. కాబట్టి, ఓ కౌంతేయా! నువ్వు ఆసక్తి లేకుండా భగవంతుని కోసమే కర్మలను ఆచరించు.',
-    englishMeaning:
-        'Work done as a sacrifice for Vishnu has to be performed, otherwise work causes bondage in this material world. Therefore, O son of Kunti, perform your prescribed duties for His satisfaction, and in that way you will always remain free from bondage.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 3 - Karma Yoga',
-    chapterTeluguTitle: 'మూడవ అధ్యాయము - కర్మ యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 3 - కర్మ యోగం',
     verseNumber: '3.19',
-    sanskrit:
-        'तस्मादसक्तः सततम् कार्यं कर्म समाचर।\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः॥',
-    transliteration:
-        'tasmad asaktah satatam karyam karma samachara\nasakto hy acharan karma param apnoti purushah',
-    teluguMeaning:
-        'కాబట్టి, కర్మ ఫలాలపై ఆసక్తి లేకుండా ఎల్లప్పుడూ నీ కర్తవ్యాన్ని నిర్వహించు. ఎందుకంటే ఆసక్తి లేకుండా కర్మలు చేసేవాడు పరమాత్మను పొందుతాడు.',
-    englishMeaning:
-        'Therefore, without being attached to the fruits of activities, one should act as a matter of duty, for by working without attachment one attains the Supreme.',
+    sanskrit: 'తస్మాదసక్తః సతతం కార్యం కర్మ సమాచర |\nఅసక్తో హ్యాచరన్కర్మ పరమాప్నోతి పూరుషః ||',
+    transliteration: 'tasmād asaktaḥ satataṃ kāryaṃ karma samācara | asakto hy ācaran karma param āpnoti pūruṣaḥ ||',
+    teluguMeaning: 'కాబట్టి ఆసక్తి లేకుండా నిరంతరం చేయవలసిన కర్మను చేయి. ఆసక్తి లేకుండా కర్మ చేసే మనిషి పరమాత్మను పొందుతాడు.',
+    englishMeaning: 'Therefore, without attachment, perform always the work that has to be done; for man attains the highest by doing work without attachment.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 3 - Karma Yoga',
-    chapterTeluguTitle: 'మూడవ అధ్యాయము - కర్మ యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 3 - కర్మ యోగం',
     verseNumber: '3.21',
-    sanskrit:
-        'यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते॥',
-    transliteration:
-        'yad yad acharati shreshthas tat tad evetaro janah\nsa yat pramanam kurute lokas tad anuvartate',
-    teluguMeaning:
-        'ఉత్తమ పురుషుడు దేనిని ఆచరిస్తాడో, ఇతర సాధారణ ప్రజలు కూడా దాన్నే అనుసరిస్తారు. అతడు దేనిని ప్రమాణంగా స్వీకరిస్తాడో, లోకం కూడా దాన్నే పాటిస్తుంది.',
-    englishMeaning:
-        'Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues.',
+    sanskrit: 'యద్యదాచరతి శ్రేష్ఠస్తత్తదేవేతరో జనః |\nస యత్ప్రమాణం కురుతే లోకస్తదనువర్తతే ||',
+    transliteration: 'yad yad ācarati śreṣṭhas tat tad evetaro janaḥ | sa yat pramāṇaṃ kurute lokas tad anuvartate ||',
+    teluguMeaning: 'గొప్ప మనిషి ఏమి చేస్తాడో, ఇతరులు కూడా అదే చేస్తారు. అతను ఏ ప్రమాణాన్ని నిర్ణయిస్తాడో, ప్రపంచం దాన్నే అనుసరిస్తుంది.',
+    englishMeaning: 'Whatever a great person does, others follow. Whatever standard they set, the world follows.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 3 - Karma Yoga',
-    chapterTeluguTitle: 'మూడవ అధ్యాయము - కర్మ యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 3 - కర్మ యోగం',
     verseNumber: '3.35',
-    sanskrit:
-        'श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥',
-    transliteration:
-        'shreyan sva-dharmo vigunah para-dharmat svanushthitat\nsva-dharme nidhanam shreyah para-dharmo bhayavahah',
-    teluguMeaning:
-        'బాగా నిర్వహించబడిన పరధర్మము కంటే లోపభూయిష్టమైన స్వధర్మమే మేలైనది. స్వధర్మాచరణలో మరణించుట కూడా శ్రేయస్కరమే, కానీ పరధర్మము భయంకరమైనది.',
-    englishMeaning:
-        'It is far better to perform one\'s own duty imperfectly than to perform another\'s duty perfectly. Death in the performance of one\'s own duty is preferable; following another\'s path is fraught with danger.',
+    sanskrit: 'శ్రేయాన్స్వధర్మో విగుణః పరధర్మాత్స్వనుష్ఠితాత్ |\nస్వధర్మే నిధనం శ్రేయః పరధర్మో భయావహః ||',
+    transliteration: 'śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt | sva-dharme nidhanaṃ śreyaḥ para-dharmo bhayāvahaḥ ||',
+    teluguMeaning: 'పరధర్మాన్ని చక్కగా ఆచరించడం కంటే తన స్వధర్మాన్ని లోపాలతో చేయడం మేలు. స్వధర్మంలో మరణం కూడా మేలే. పరధర్మం భయాన్ని కలిగిస్తుంది.',
+    englishMeaning: 'It is better to perform one\'s own duty imperfectly than to perform another\'s duty perfectly. Even death in performing one\'s own duty is preferable; following another\'s path is dangerous.',
   ),
 
-  // ================= CHAPTER 4 - JNANA KARMA SANYASA YOGA =================
+  // Chapter 4 - Jnana Karma Sanyasa Yoga
   const Sloka(
     chapterTitle: 'Chapter 4 - Jnana Karma Sanyasa Yoga',
-    chapterTeluguTitle: 'నాలుగవ అధ్యాయము - జ్ఞాన కర్మ సన్యాస యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 4 - జ్ఞాన కర్మ సన్యాస యోగం',
     verseNumber: '4.7',
-    sanskrit:
-        'यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥',
-    transliteration:
-        'yada yada hi dharmasya glanir-bhavati bharata\nabhyutthanam-adharmasya tadatmanam srijamy-aham',
-    teluguMeaning:
-        'ఓ భారతా, ఎప్పుడెప్పుడు ధర్మము క్షీణించి అధర్మము పెరుగుతుందో, అప్పుడప్పుడు నేను నన్ను నేను సృష్టించుకుంటాను (అవతరిస్తాను).',
-    englishMeaning:
-        'O descendant of Bharata, whenever righteousness declines and unrighteousness rises, I manifest myself on earth.',
+    sanskrit: 'యదా యదా హి ధర్మస్య గ్లానిర్భవతి భారత |\nఅభ్యుత్థానమధర్మస్య తదాత్మానం సృజామ్యహమ్ ||',
+    transliteration: 'yadā yadā hi dharmasya glānir bhavati bhārata | abhyutthānam adharmasya tadātmānaṃ sṛjāmy aham ||',
+    teluguMeaning: 'ఓ భారతా! ఎప్పుడెప్పుడు ధర్మం క్షీణిస్తుందో, అధర్మం పెరుగుతుందో, అప్పుడు నేను నన్ను నేను సృష్టించుకుంటాను.',
+    englishMeaning: 'Whenever and wherever there is a decline in dharma and a rise in adharma, O Bharata, at that time I manifest Myself.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 4 - Jnana Karma Sanyasa Yoga',
-    chapterTeluguTitle: 'నాలుగవ అధ్యాయము - జ్ఞాన కర్మ సన్యాస యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 4 - జ్ఞాన కర్మ సన్యాస యోగం',
     verseNumber: '4.8',
-    sanskrit:
-        'परित्राणाय साधूनां विनाशाय च दुष्कृताम्।\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे॥',
-    transliteration:
-        'paritranaya sadhunam vinashaya cha dushkritam\ndharma-samsthapanarthaya sambhavami yuge yuge',
-    teluguMeaning:
-        'సాధువులను రక్షించుటకు, దుష్టులను నశింపజేయుటకు, ధర్మాన్ని పునఃస్థాపించుటకు నేను ప్రతి యుగములోనూ అవతరిస్తాను.',
-    englishMeaning:
-        'To protect the righteous, to destroy the wicked, and to firmly re-establish dharma, I appear age after age.',
+    sanskrit: 'పరిత్రాణాయ సాధూనాం వినాశాయ చ దుష్కృతామ్ |\nధర్మసంస్థాపనార్థాయ సంభవామి యుగే యుగే ||',
+    transliteration: 'paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām | dharma-saṃsthāpanārthāya sambhavāmi yuge yuge ||',
+    teluguMeaning: 'సాధువులను రక్షించడానికి, దుష్టులను నాశనం చేయడానికి, ధర్మాన్ని స్థాపించడానికి నేను ప్రతి యుగంలో జన్మిస్తాను.',
+    englishMeaning: 'To deliver the pious and annihilate the miscreants, and to reestablish the principles of dharma, I appear millennium after millennium.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 4 - Jnana Karma Sanyasa Yoga',
-    chapterTeluguTitle: 'నాలుగవ అధ్యాయము - జ్ఞాన కర్మ సన్యాస యోగము',
-    verseNumber: '4.24',
-    sanskrit:
-        'ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम्।\nब्रह्मेव तेन गन्तव्यं ब्रह्मकर्मसमाधिना॥',
-    transliteration:
-        'brahmarpanam brahma havir brahmagnau brahmana hutam\nbrahmaiva tena gantavyam brahma-karma-samadhina',
-    teluguMeaning:
-        'అర్పించే పాత్ర బ్రహ్మము, హవిస్సు బ్రహ్మము, బ్రహ్మము చేత బ్రహ్మమనే అగ్నిలో హోమం చేయబడినది కూడా బ్రహ్మమే. కర్మలన్నిటిలోనూ బ్రహ్మమును చూసేవాడు బ్రహ్మమునే పొందుతాడు.',
-    englishMeaning:
-        'A person who is fully absorbed in Krishna consciousness is sure to attain the spiritual kingdom because of his full contribution to spiritual activities, in which the consummation is absolute and that which is offered is of the same spiritual nature.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 4 - Jnana Karma Sanyasa Yoga',
-    chapterTeluguTitle: 'నాలుగవ అధ్యాయము - జ్ఞాన కర్మ సన్యాస యోగము',
-    verseNumber: '4.39',
-    sanskrit:
-        'श्रद्धावांल्लभते ज्ञानं तत्परः संयतेन्द्रियः।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति॥',
-    transliteration:
-        'shraddhaval labhate janam tat-parah samyatendriyah\njanam labdhva param shantim achirenadhigachchhati',
-    teluguMeaning:
-        'శ్రద్ధ కలిగినవాడు, ఇంద్రియ నిగ్రహం ఉన్నవాడు జ్ఞానాన్ని పొందుతాడు. జ్ఞానాన్ని పొందిన వెంటనే అతడు పరమ శాంతిని పొందుతాడు.',
-    englishMeaning:
-        'A faithful man who is dedicated to transcendental knowledge and who subdues his senses attains this knowledge, and having achieved it, he quickly attains the supreme spiritual peace.',
+    chapterTeluguTitle: 'అధ్యాయం 4 - జ్ఞాన కర్మ సన్యాస యోగం',
+    verseNumber: '4.38',
+    sanskrit: 'న హి జ్ఞానేన సదృశం పవిత్రమిహ విద్యతే |\nతత్స్వయం యోగసంసిద్ధః కాలేనాత్మని విందతి ||',
+    transliteration: 'na hi jñānena sadṛśaṃ pavitram iha vidyate | tat svayaṃ yoga-saṃsiddhaḥ kālenātmani vindati ||',
+    teluguMeaning: 'ఇక్కడ జ్ఞానంతో సమానమైన పవిత్రమైనది ఏదీ లేదు. యోగంలో సిద్ధి పొందినవాడు కాలక్రమంలో తన ఆత్మలో దానిని స్వయంగా పొందుతాడు.',
+    englishMeaning: 'In this world, there is nothing as purifying as transcendental knowledge. One who has attained perfection in yoga finds this knowledge within himself in due time.',
   ),
 
-  // ================= CHAPTER 5 - KARMA SANYASA YOGA =================
+  // Chapter 5 - Karma Sanyasa Yoga
   const Sloka(
     chapterTitle: 'Chapter 5 - Karma Sanyasa Yoga',
-    chapterTeluguTitle: 'ఐదవ అధ్యాయము - కర్మ సన్యాస యోగము',
-    verseNumber: '5.10',
-    sanskrit:
-        'ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः।\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा॥',
-    transliteration:
-        'brahmany adhaya karmani sangam tyaktva karoti yah\nlipyate na sa papena padma-patram ivambhasa',
-    teluguMeaning:
-        'ఎవరైతే కర్మఫలాలపై ఆసక్తిని వదిలి, తన కర్మలను భగవంతునికి అర్పించి చేస్తారో, వారిని తామరాకును నీరు అంటనట్లే పాపము అంటదు.',
-    englishMeaning:
-        'One who performs his duty without attachment, surrendering the results unto the Supreme Lord, is unaffected by sinful action, as the lotus leaf is untouched by water.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 5 - Karma Sanyasa Yoga',
-    chapterTeluguTitle: 'ఐదవ అధ్యాయము - కర్మ సన్యాస యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 5 - కర్మ సన్యాస యోగం',
     verseNumber: '5.18',
-    sanskrit:
-        'विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः॥',
-    transliteration:
-        'vidya-vinaya-sampanne brahmane gavi hastini\nshuni chaiva shvapake cha panditah sama-darshinah',
-    teluguMeaning:
-        'జ్ఞానులైన వారు విద్యావినయాలు గల బ్రాహ్మణుడిని, ఆవును, ఏనుగును, కుక్కను, చండాలుడిని సమదృష్టితో (అందరిలోనూ ఒకే పరమాత్మను) చూస్తారు.',
-    englishMeaning:
-        'The humble sages, by virtue of true knowledge, see with equal vision a learned and gentle brahmana, a cow, an elephant, a dog and a dog-eater.',
+    sanskrit: 'విద్యావినయసంపన్నే బ్రాహ్మణే గవి హస్తిని |\nశుని చైవ శ్వపాకే చ పండితాః సమదర్శినః ||',
+    transliteration: 'vidyā-vinaya-sampanne brāhmaṇe gavi hastini | śuni caiva śvapāke ca paṇḍitāḥ sama-darśinaḥ ||',
+    teluguMeaning: 'జ్ఞానులు విద్య మరియు వినయంతో కూడిన బ్రాహ్మణుడు, ఆవు, ఏనుగు, కుక్క మరియు చండాలుడు అందరిలో సమానంగా చూస్తారు.',
+    englishMeaning: 'The wise see with equal vision a learned brahmin, a cow, an elephant, a dog, and an outcaste.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 5 - Karma Sanyasa Yoga',
-    chapterTeluguTitle: 'ఐదవ అధ్యాయము - కర్మ సన్యాస యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 5 - కర్మ సన్యాస యోగం',
     verseNumber: '5.22',
-    sanskrit:
-        'ये हि संस्पर्शजा भोगा दुःखयोनय एव ते।\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः॥',
-    transliteration:
-        'ye hi samsparshaja bhoga duhkha-yonaya eva te\nady-antavantah kaunteya na teshu ramate budhah',
-    teluguMeaning:
-        'ఇంద్రియాల కలయిక వల్ల కలిగే భోగాలు దుఃఖాలకే కారణమవుతాయి. ఓ కౌంతేయా! ఇవి ఆది, అంతము కలవి (తాత్కాలికమైనవి). వివేకవంతుడైనవాడు వీటియందు రమించడు.',
-    englishMeaning:
-        'An intelligent person does not take part in the sources of misery, which are due to contact with the material senses. O son of Kunti, such pleasures have a beginning and an end, and so the wise man does not delight in them.',
+    sanskrit: 'యే హి సంస్పర్శజా భోగా దుఃఖయోనయ ఏవ తే |\nఆద్యంతవంతః కౌంతేయ న తేషు రమతే బుధః ||',
+    transliteration: 'ye hi saṃsparśa-jā bhogā duḥkha-yonaya eva te | ādy-antavantaḥ kaunteya na teṣu ramate budhaḥ ||',
+    teluguMeaning: 'స్పర్శ నుండి పుట్టే భోగాలు దుఃఖానికి మూలాలు. అవి ఆది మరియు అంతం కలవి. కాబట్టి జ్ఞాని వాటిలో ఆనందపడడు.',
+    englishMeaning: 'Pleasures derived from sense contact are sources of suffering. They have a beginning and an end, O Arjuna. The wise do not delight in them.',
   ),
 
-  // ================= CHAPTER 6 - DHYANA YOGA =================
+  // Chapter 6 - Dhyana Yoga
   const Sloka(
     chapterTitle: 'Chapter 6 - Dhyana Yoga',
-    chapterTeluguTitle: 'ఆరవ అధ్యాయము - ధ్యాన యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 6 - ధ్యాన యోగం',
     verseNumber: '6.5',
-    sanskrit:
-        'उद्धरेदात्मनात्मानं नात्मानमवसादयेत्।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः॥',
-    transliteration:
-        'uddhared-atmanatmanam natmanam-avasadayet\natmaiva hy-atmano bandhur-atmaiva ripur-atmanah',
-    teluguMeaning:
-        'మనిషి తనను తానే ఉద్ధరించుకోవాలి, తనను తాను అధోగతి పాలు చేసుకోకూడదు. తన మనస్సే తనకు మిత్రుడు, తన మనస్సే తనకు శత్రువు.',
-    englishMeaning:
-        'One must elevate oneself through the power of one\'s own mind, and not degrade oneself. For the mind alone is the friend of the self, and the mind alone is its enemy.',
+    sanskrit: 'ఉద్ధరేదాత్మనాత్మానం నాత్మానమవసాదయేత్ |\nఆత్మైవ హ్యాత్మనో బంధురాత్మైవ రిపురాత్మనః ||',
+    transliteration: 'uddhared ātmanātmānaṃ nātmānam avasādayet | ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ ||',
+    teluguMeaning: 'మనిషి తన ఆత్మను తనే ఉద్ధరించుకోవాలి, తగ్గించుకోకూడదు. ఆత్మే మనిషికి మిత్రుడు, ఆత్మే మనిషికి శత్రువు.',
+    englishMeaning: 'Let a man lift himself by his own self alone, and let him not lower himself; for this self alone is the friend of oneself, and this self alone is the enemy of oneself.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 6 - Dhyana Yoga',
-    chapterTeluguTitle: 'ఆరవ అధ్యాయము - ధ్యాన యోగము',
-    verseNumber: '6.26',
-    sanskrit:
-        'यतो यतो निश्चरति मनश्चञ्चलमस्थिरम्।\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत्॥',
-    transliteration:
-        'yato yato nishcharati manash chanchalam asthiram\ntatas tato niyamyaitad atmany eva vasham nayet',
-    teluguMeaning:
-        'చంచలమైన, స్థిరత్వం లేని మనస్సు ఏ ఏ కారణాల వల్ల బయటకు పరుగెడుతుందో, ఆయా కారణాల నుండి దానిని మళ్లించి మళ్లీ ఆత్మ నియంత్రణలోనికి తీసుకురావాలి.',
-    englishMeaning:
-        'From wherever the mind wanders due to its flickering and unsteady nature, one must certainly withdraw it and bring it back under the control of the Self.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 6 - Dhyana Yoga',
-    chapterTeluguTitle: 'ఆరవ అధ్యాయము - ధ్యాన యోగము',
-    verseNumber: '6.30',
-    sanskrit:
-        'यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति।\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति॥',
-    transliteration:
-        'yo mam pashyati sarvatra sarvam cha mayi pashyati\ntasyaham na pranashyami sa cha me na pranashyati',
-    teluguMeaning:
-        'నన్ను అన్నింటిలోనూ చూసేవాడికి, అన్నింటినీ నాలో చూసేవాడికి, నేను ఎన్నడూ దూరం కాను, వాడు కూడా నాకు దూరం కాడు.',
-    englishMeaning:
-        'For one who sees Me everywhere and sees everything in Me, I am never lost, nor is that person ever lost to Me.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 6 - Dhyana Yoga',
-    chapterTeluguTitle: 'ఆరవ అధ్యాయము - ధ్యాన యోగము',
-    verseNumber: '6.46',
-    sanskrit:
-        'तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः।\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन॥',
-    transliteration:
-        'tapasvibhyo dhiko yogi jnanibhyo pi mato dhikah\nkarmibhyash chadhiko yogi tasmad yogi bhavarjuna',
-    teluguMeaning:
-        'యోగి తపస్వుల కంటే, జ్ఞానుల కంటే మరియు కామ్యకర్మలు చేసేవారి కంటే శ్రేష్ఠుడు. కాబట్టి ఓ అర్జునా! నువ్వు యోగివి కా.',
-    englishMeaning:
-        'A yogi is greater than the ascetic, greater than the empiricist and greater than the fruitive worker. Therefore, O Arjuna, in all circumstances, be a yogi.',
+    chapterTeluguTitle: 'అధ్యాయం 6 - ధ్యాన యోగం',
+    verseNumber: '6.35',
+    sanskrit: 'అసంశయం మహాబాహో మనో దుర్నిగ్రహం చలమ్ |\nఅభ్యాసేన తు కౌంతేయ వైరాగ్యేణ చ గృహ్యతే ||',
+    transliteration: 'asaṃśayaṃ mahābāho mano durnigrahaṃ calam | abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate ||',
+    teluguMeaning: 'నిస్సందేహంగా మనసు చంచలమైనది, నిగ్రహించడం కష్టం. కానీ అభ్యాసం మరియు వైరాగ్యం ద్వారా దాన్ని నిగ్రహించవచ్చు.',
+    englishMeaning: 'Undoubtedly, O mighty-armed Arjuna, the mind is restless and difficult to restrain. But it is controlled by practice and detachment.',
   ),
 
-  // ================= CHAPTER 7 - JNANA VIJNANA YOGA =================
+  // Chapter 7 - Jnana Vijnana Yoga
   const Sloka(
     chapterTitle: 'Chapter 7 - Jnana Vijnana Yoga',
-    chapterTeluguTitle: 'ఏడవ అధ్యాయము - జ్ఞాన విజ్ఞాన యోగము',
-    verseNumber: '7.3',
-    sanskrit:
-        'मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये।\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः॥',
-    transliteration:
-        'manushyanam sahasreshu kashchid yatati siddhaye\nyatatam api siddhanam kashchin mam vetti tattvatah',
-    teluguMeaning:
-        'వేలకొద్దీ మనుష్యులలో ఎవరో ఒకరు మాత్రమే సిద్ధి కోసం ప్రయత్నిస్తారు. అలా ప్రయత్నించి సిద్ధి పొందిన వారిలో కూడా నన్ను నిజ స్వరూపంతో తెలుసుకునేవాడు ఎవరో ఒకడే ఉంటాడు.',
-    englishMeaning:
-        'Out of many thousands among men, one may endeavor for perfection, and of those who have achieved perfection, hardly one knows Me in truth.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 7 - Jnana Vijnana Yoga',
-    chapterTeluguTitle: 'ఏడవ అధ్యాయము - జ్ఞాన విజ్ఞాన యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 7 - జ్ఞాన విజ్ఞాన యోగం',
     verseNumber: '7.7',
-    sanskrit:
-        'मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय।\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव॥',
-    transliteration:
-        'mattah parataram nanyat kinchid asti dhananjaya\nmayi sarvam idam protam sutre mani-gana iva',
-    teluguMeaning:
-        'ఓ ధనంజయా! నాకంటే శ్రేష్ఠమైనది ఏదీ లేదు. దారంలో పూసలు గుచ్చబడినట్లు సమస్త విశ్వము నాలోనే దాగి ఉన్నది.',
-    englishMeaning:
-        'O conqueror of wealth, there is no truth superior to Me. Everything rests upon Me, as pearls are strung on a thread.',
+    sanskrit: 'మత్తః పరతరం నాన్యత్కించిదస్తి ధనంజయ |\nమయి సర్వమిదం ప్రోతం సూత్రే మణిగణా ఇవ ||',
+    transliteration: 'mattaḥ parataraṃ nānyat kiñcid asti dhanañjaya | mayi sarvam idaṃ protaṃ sūtre maṇi-gaṇā iva ||',
+    teluguMeaning: 'ఓ ధనంజయా! నా కంటే శ్రేష్ఠమైనది మరొకటి లేదు. దారంలో మణులు గుచ్చినట్లు ఈ సర్వం నాలో గుచ్చబడి ఉంది.',
+    englishMeaning: 'O Arjuna, there is nothing higher than Me. Everything rests in Me, as beads strung on a thread.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 7 - Jnana Vijnana Yoga',
-    chapterTeluguTitle: 'ఏడవ అధ్యాయము - జ్ఞాన విజ్ఞాన యోగము',
-    verseNumber: '7.14',
-    sanskrit:
-        'दैवी ह्येषा गुणमयी मम माया दुरत्यया।\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते॥',
-    transliteration:
-        'daivi hy esha guna-mayi mama maya duratyaya\nmam eva ye prapadyante mayam etam taranti te',
-    teluguMeaning:
-        'త్రిగుణాలతో కూడిన నా ఈ దైవిక మాయను దాటడం చాలా కష్టం. కానీ నన్ను మాత్రమే శరణు వేడిన వారు ఈ మాయను సులభంగా దాటగలరు.',
-    englishMeaning:
-        'This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome. But those who have surrendered unto Me can easily cross beyond it.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 7 - Jnana Vijnana Yoga',
-    chapterTeluguTitle: 'ఏడవ అధ్యాయము - జ్ఞాన విజ్ఞాన యోగము',
-    verseNumber: '7.16',
-    sanskrit:
-        'चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन।\nआर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ॥',
-    transliteration:
-        'chatur-vidha bhajante mam janah sukritino rjuna\narto jijnasur artharthi jnani cha bharatarshabha',
-    teluguMeaning:
-        'ఓ అర్జునా! ఆర్తులు, జిజ్ఞాసువులు, అర్థార్థులు, జ్ఞానులు అనే నాలుగు రకాల పుణ్యాత్ములు నన్ను ఆరాధిస్తారు.',
-    englishMeaning:
-        'O best among the Bharatas, four kinds of pious men begin to render devotional service unto Me—the distressed, the desirer of wealth, the inquisitive, and he who is searching for knowledge of the Absolute.',
+    chapterTeluguTitle: 'అధ్యాయం 7 - జ్ఞాన విజ్ఞాన యోగం',
+    verseNumber: '7.19',
+    sanskrit: 'బహూనాం జన్మనామంతే జ్ఞానవాన్మాం ప్రపద్యతే |\nవాసుదేవః సర్వమితి స మహాత్మా సుదుర్లభః ||',
+    transliteration: 'bahūnāṃ janmanām ante jñānavān māṃ prapadyate | vāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ ||',
+    teluguMeaning: 'అనేక జన్మల అనంతరం జ్ఞాని వాసుదేవుడే సర్వమని తెలుసుకుని నన్ను శరణుపొందుతాడు. అటువంటి మహాత్ముడు చాలా అరుదు.',
+    englishMeaning: 'After many births and deaths, the wise person who knows Me surrenders unto Me, knowing that I am everything. Such a great soul is very rare.',
   ),
 
-  // ================= CHAPTER 8 - AKSHARA BRAHMA YOGA =================
+  // Chapter 8 - Aksara Brahma Yoga
   const Sloka(
-    chapterTitle: 'Chapter 8 - Akshara Brahma Yoga',
-    chapterTeluguTitle: 'ఎనిమిదవ అధ్యాయము - అక్షరపరబ్రహ్మ యోగము',
-    verseNumber: '8.5',
-    sanskrit:
-        'अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम्।\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः॥',
-    transliteration:
-        'anta-kale cha mam eva smaran muktva kalevaram\nyah prayati sa mad-bhavam yati nasty atra samshayah',
-    teluguMeaning:
-        'ఎవరైతే మరణకాలంలో నన్ను మాత్రమే స్మరిస్తూ శరీరాన్ని విడిచిపెడతారో, వారు నా స్వరూపాన్ని పొందుతారు. ఇందులో ఎలాంటి సందేహం లేదు.',
-    englishMeaning:
-        'And whoever, at the end of his life, quits his body remembering Me alone, at once attains My nature. Of this there is no doubt.',
+    chapterTitle: 'Chapter 8 - Aksara Brahma Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 8 - అక్షర బ్రహ్మ యోగం',
+    verseNumber: '8.7',
+    sanskrit: 'తస్మాత్సర్వేషు కాలేషు మామనుస్మర యుధ్య చ |\nమయ్యర్పితమనోబుద్ధిర్మామేవైష్యస్యసంశయమ్ ||',
+    transliteration: 'tasmāt sarveṣu kāleṣu mām anusmara yudhya ca | mayy arpita-mano-buddhir mām evaiṣyasy asaṃśayam ||',
+    teluguMeaning: 'కాబట్టి అన్ని సమయాలలో నన్ను స్మరిస్తూ యుద్ధం చేయి. మనసు మరియు బుద్ధిని నాలో అర్పించు, నిస్సందేహంగా నన్నే చేరుకుంటావు.',
+    englishMeaning: 'Therefore, O Arjuna, always think of Me and fight. With your mind and intelligence fixed on Me, you will attain Me without doubt.',
   ),
   const Sloka(
-    chapterTitle: 'Chapter 8 - Akshara Brahma Yoga',
-    chapterTeluguTitle: 'ఎనిమిదవ అధ్యాయము - అక్షరపరబ్రహ్మ యోగము',
-    verseNumber: '8.6',
-    sanskrit:
-        'यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेवरम्।\nतं तमेवैति कौन्तेय सदा तद्भावभावितः॥',
-    transliteration:
-        'yam yam vapi smaran bhavam tyajaty ante kalevaram\ntam tam evaiti kaunteya sada tad-bhava-bhavitah',
-    teluguMeaning:
-        'మнуష్యుడు మరణకాలంలో ఏ భావాన్ని స్మరిస్తూ శరీరాన్ని విడిచిపెడతాడో, ఆ తదుపరి జన్మలో ఆ భావాన్నే పొందుతాడు.',
-    englishMeaning:
-        'Whatever state of being one remembers when he quits his body, O son of Kunti, that state he will attain without fail.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 8 - Akshara Brahma Yoga',
-    chapterTeluguTitle: 'ఎనిమిదవ అధ్యాయము - అక్షరపరబ్రహ్మ యోగము',
-    verseNumber: '8.15',
-    sanskrit:
-        'मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम्।\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गతాः॥',
-    transliteration:
-        'mam upetya punar janma duhkhalayam ashashvatam\nnapnuvanti mahatmanah samsiddhim paramam gatah',
-    teluguMeaning:
-        'నన్ను పొందిన మహాత్ములు, దుఃఖభూయిష్టమైన, అశాశ్వతమైన ఈ సంసార చక్రంలోకి మళ్లీ జన్మించరు. ఎందుకంటే వారు పరమ సిద్ధిని పొందారు.',
-    englishMeaning:
-        'After attaining Me, the great souls, who are yogis in devotion, never return to this temporary world, which is full of miseries, because they have attained the highest perfection.',
+    chapterTitle: 'Chapter 8 - Aksara Brahma Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 8 - అక్షర బ్రహ్మ యోగం',
+    verseNumber: '8.16',
+    sanskrit: 'ఆబ్రహ్మభువనాల్లోకాః పునరావర్తినోఽర్జున |\nమాముపేత్య తు కౌంతేయ పునర్జన్మ న విద్యతే ||',
+    transliteration: 'ā-brahma-bhuvanāl lokāḥ punar āvartino\'rjuna | mām upetya tu kaunteya punar janma na vidyate ||',
+    teluguMeaning: 'బ్రహ్మలోకం వరకు అన్ని లోకాలూ పునర్జన్మకు తావు ఇస్తాయి. కానీ నన్ను చేరినవాడికి మళ్ళీ జన్మ ఉండదు.',
+    englishMeaning: 'From the highest planet to the lowest, all are places of repeated birth and death. But one who attains Me, O Arjuna, is never born again.',
   ),
 
-  // ================= CHAPTER 9 - RAJA VIDYA RAJA GUHYA YOGA =================
+  // Chapter 9 - Raja Vidya Raja Guhya Yoga
   const Sloka(
     chapterTitle: 'Chapter 9 - Raja Vidya Raja Guhya Yoga',
-    chapterTeluguTitle: 'తొమ్మిదవ అధ్యాయము - రాజవిద్యా రాజగుహ్య యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 9 - రాజ విద్యా రాజ గుహ్య యోగం',
     verseNumber: '9.22',
-    sanskrit:
-        'अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्॥',
-    transliteration:
-        'ananyash-chintayanto mam ye janah paryupasate\ntesham nityabhiyuktanam yoga-kshemam vahamy-aham',
-    teluguMeaning:
-        'ఎవరు అనన్యమైన భక్తితో నన్ను ధ్యానిస్తూ ఆరాధిస్తారో, అటువంటి నిరంతర భక్తుల యోగక్షేమాలను నేనే వహిస్తాను.',
-    englishMeaning:
-        'For those who worship Me with single-minded devotion, thinking of nothing else, I personally provide what they lack and preserve what they already have.',
+    sanskrit: 'అనన్యాశ్చింతయంతో మాం యే జనాః పర్యుపాసతే |\nతేషాం నిత్యాభియుక్తానాం యోగక్షేమం వహామ్యహమ్ ||',
+    transliteration: 'ananyāś cintayanto māṃ ye janāḥ paryupāsate | teṣāṃ nityābhiyuktānāṃ yoga-kṣemaṃ vahāmy aham ||',
+    teluguMeaning: 'నన్ను అనన్యంగా ధ్యానిస్తూ సేవించేవారికి నిత్యం నేనే యోగక్షేమాలు వహిస్తాను.',
+    englishMeaning: 'For those who worship Me with devotion, meditating on My transcendental form, I carry what they lack and preserve what they have.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 9 - Raja Vidya Raja Guhya Yoga',
-    chapterTeluguTitle: 'తొమ్మిదవ అధ్యాయము - రాజవిద్యా రాజగుహ్య యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 9 - రాజ విద్యా రాజ గుహ్య యోగం',
     verseNumber: '9.26',
-    sanskrit:
-        'पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति।\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः॥',
-    transliteration:
-        'patram pushpam phalam toyam yo me bhaktya prayachchhati\ntad aham bhakty-upahritam ashnami prayatatmanah',
-    teluguMeaning:
-        'ఎవరైనా నాకు భక్తితో ఒక ఆకును గానీ, పువ్వును గానీ, పండును గానీ, కొంచెం నీటిని గానీ సమర్పిస్తే, శుద్ధమైన మనస్సుతో సమర్పించిన ఆ భక్తి పూర్వక కానుకను నేను స్వీకరిస్తాను.',
-    englishMeaning:
-        'If one offers Me with love and devotion a leaf, a flower, a fruit or water, I will accept it.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 9 - Raja Vidya Raja Guhya Yoga',
-    chapterTeluguTitle: 'తొమ్మిదవ అధ్యాయము - రాజవిద్యా రాజగుహ్య యోగము',
-    verseNumber: '9.27',
-    sanskrit:
-        'यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम्॥',
-    transliteration:
-        'yat karoshi yad ashnasi yaj juhoshi dadasi yat\nyat tapasyasi kaunteya tat kurushva mad-arpanam',
-    teluguMeaning:
-        'ఓ కౌంతేయా! నువ్వు ఏది చేసినా, ఏది తిన్నా, ఏ హోమం చేసినా, ఏది దానం చేసినా, ఏ తపస్సు చేసినా.. వాటన్నింటినీ నాకు సమర్పణగా చెయ్యి.',
-    englishMeaning:
-        'Whatever you do, whatever you eat, whatever you offer or give away, and whatever austerities you perform—do that, O son of Kunti, as an offering unto Me.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 9 - Raja Vidya Raja Guhya Yoga',
-    chapterTeluguTitle: 'తొమ్మిదవ అధ్యాయము - రాజవిద్యా రాజగుహ్య యోగము',
-    verseNumber: '9.34',
-    sanskrit:
-        'मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु।\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः॥',
-    transliteration:
-        'man-mana bhava mad-bhakto mad-yaji mam namaskuru\nmam evaishyasi yuktvaivam atmanam mat-parayanah',
-    teluguMeaning:
-        'నీ మనస్సును నాపై లగ్నం చెయ్యి, నా భక్తుడవు కా, నన్ను ఆరాధించు, నాకు నమస్కరించు. ఈ విధంగా నన్నే పరమగతిగా నమ్మిన నువ్వు నన్నే చేరుకుంటావు.',
-    englishMeaning:
-        'Engage your mind always in thinking of Me, become My devotee, offer obeisances to Me and worship Me. Being completely absorbed in Me, surely you will come to Me.',
+    sanskrit: 'పత్రం పుష్పం ఫలం తోయం యో మే భక్త్యా ప్రయచ్ఛతి |\nతదహం భక్త్యుపహృతమశ్నామి ప్రయతాత్మనః ||',
+    transliteration: 'patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati | tad ahaṃ bhakty-upahṛtam aśnāmi prayatātmanaḥ ||',
+    teluguMeaning: 'ఎవడైనా భక్తితో ఆకు, పువ్వు, పండు లేదా నీరు అర్పిస్తే, ఆ శుద్ధమనస్కుని భక్తితో అర్పించినదాన్ని నేను స్వీకరిస్తాను.',
+    englishMeaning: 'If one offers Me with love and devotion a leaf, a flower, fruit, or water, I will accept it.',
   ),
 
-  // ================= CHAPTER 10 - VIBHUTI YOGA =================
+  // Chapter 10 - Vibhuti Yoga
   const Sloka(
     chapterTitle: 'Chapter 10 - Vibhuti Yoga',
-    chapterTeluguTitle: 'పదవ అధ్యాయము - విభూతి యోగము',
-    verseNumber: '10.8',
-    sanskrit:
-        'अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः॥',
-    transliteration:
-        'aham sarvasya prabhavo mattah sarvam pravartate\niti matva bhajante mam budha bhava-samanvitah',
-    teluguMeaning:
-        'నేనే సర్వసృష్టికి మూలకారకుడను, నా వలనే సమస్తము నడుస్తోంది. ఇది గ్రహించిన వివేకవంతులు అత్యంత భక్తిశ్రద్ధలతో నన్ను ఆరాధిస్తారు.',
-    englishMeaning:
-        'I am the source of all spiritual and material worlds. Everything emanates from Me. The wise who perfectly know this engage in My devotional service and worship Me with all their hearts.',
+    chapterTeluguTitle: 'అధ్యాయం 10 - విభూతి యోగం',
+    verseNumber: '10.20',
+    sanskrit: 'అహమాత్మా గుడాకేశ సర్వభూతాశయస్థితః |\nఅహమాదిశ్చ మధ్యం చ భూతానామంత ఏవ చ ||',
+    transliteration: 'aham ātmā guḍākeśa sarva-bhūtāśaya-sthitaḥ | aham ādiś ca madhyaṃ ca bhūtānām anta eva ca ||',
+    teluguMeaning: 'ఓ గుడాకేశా! నేను అన్ని జీవుల హృదయంలో స్థితుడైన ఆత్మను. నేనే అన్ని జీవుల ఆది, మధ్య మరియు అంతం.',
+    englishMeaning: 'I am the Self, O Arjuna, seated in the hearts of all creatures. I am the beginning, the middle, and the end of all beings.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 10 - Vibhuti Yoga',
-    chapterTeluguTitle: 'పదవ అధ్యాయము - విభూతి యోగము',
-    verseNumber: '10.9',
-    sanskrit:
-        'मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम्।\nकथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च॥',
-    transliteration:
-        'mach-chitta mad-gata-prana bodhayantah parasparam\nkathayantash cha mam nityam tushyanti cha ramanti cha',
-    teluguMeaning:
-        'నాపై మనస్సు నిలిపి, తమ ప్రాణాలను నాకే అర్పించిన నా భక్తులు.. ఎల్లప్పుడూ ఒకరికొకరు నా జ్ఞానాన్ని బోధించుకుంటూ, నా లీలలను కీర్తిస్తూ సంతోషాన్ని, తృప్తిని పొందుతారు.',
-    englishMeaning:
-        'The thoughts of My pure devotees dwell in Me, their lives are fully devoted to My service, and they derive great satisfaction and bliss from always enlightening one another and conversing about Me.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 10 - Vibhuti Yoga',
-    chapterTeluguTitle: 'పదవ అధ్యాయము - విభూతి యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 10 - విభూతి యోగం',
     verseNumber: '10.41',
-    sanskrit:
-        'यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा।\nतत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम्॥',
-    transliteration:
-        'yad yad vibhutimat sattvam shrimad urjitam eva va\ntat tad evavagachchha tvam mama tejo-msha-sambhavam',
-    teluguMeaning:
-        'ఐశ్వర్యవంతమైనది, అందమైనది మరియు శక్తివంతమైనది ఏ ప్రాణి లేదా వస్తువైనా.. అది నా తేజస్సు యొక్క ఒక చిన్న అంశ వల్లనే ఉద్భవించిందని తెలుసుకో.',
-    englishMeaning:
-        'Know that all opulent, beautiful and glorious creations spring from but a spark of My splendor.',
+    sanskrit: 'యద్యద్విభూతిమత్సత్త్వం శ్రీమదూర్జితమేవ వా |\nతత్తదేవావగచ్ఛ త్వం మమ తేజోంశసంభవమ్ ||',
+    transliteration: 'yad yad vibhūtimat sattvaṃ śrīmad ūrjitam eva vā | tat tad evāvagaccha tvaṃ mama tejo\'ṃśa-sambhavam ||',
+    teluguMeaning: 'ఏదైనా విభూతిగల, శ్రీమంతమైన, ఉత్కృష్టమైన వస్తువు ఉంటే, అది నా తేజస్సు యొక్క అంశ నుండి జనించినదని తెలుసుకో.',
+    englishMeaning: 'Know that all beautiful, glorious, and mighty creations spring from but a spark of My splendor.',
   ),
 
-  // ================= CHAPTER 11 - VISHWARUPA DARSHANA YOGA =================
+  // Chapter 11 - Vishwarupa Darshana Yoga
   const Sloka(
     chapterTitle: 'Chapter 11 - Vishwarupa Darshana Yoga',
-    chapterTeluguTitle: 'పदకొండవ అధ్యాయము - విశ్వరూప సందర్శన యోగము',
-    verseNumber: '11.12',
-    sanskrit:
-        'दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता।\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः॥',
-    transliteration:
-        'divi surya-sahasrasya bhaved yugapad utthita\nyadi bhah sadrishi sa syad bhasas tasya mahatmanah',
-    teluguMeaning:
-        'ఆకాశంలో ఒకేసారి వేయి సూర్యులు ఉదయిస్తే ఎంతటి కాంతి పుడుతుందో, ఆ పరమాత్మ యొక్క విశ్వరూప కాంతి అంతకంటే ఎక్కువగా ఉన్నది.',
-    englishMeaning:
-        'If hundreds of thousands of suns were to rise at once into the sky, their radiance might resemble the effulgence of the Supreme Person in that universal form.',
+    chapterTeluguTitle: 'అధ్యాయం 11 - విశ్వరూప దర్శన యోగం',
+    verseNumber: '11.32',
+    sanskrit: 'కాలోఽస్మి లోకక్షయకృత్ప్రవృద్ధో లోకాన్సమాహర్తుమిహ ప్రవృత్తః |\nఋతేఽపి త్వాం న భవిష్యంతి సర్వే యేఽవస్థితాః ప్రత్యనీకేషు యోధాః ||',
+    transliteration: 'kālo\'smi loka-kṣaya-kṛt pravṛddho lokān samāhartum iha pravṛttaḥ | ṛte\'pi tvāṃ na bhaviṣyanti sarve ye\'vasthitāḥ pratyanīkeṣu yodhāḥ ||',
+    teluguMeaning: 'నేను కాలాన్ని, లోకాలను నాశనం చేసే మహాకాలుడిని. లోకాలను సంహరించేందుకు ఇక్కడ ప్రవర్తిస్తున్నాను. నీవు లేకపోయినా శత్రు సైన్యంలో ఉన్న యోధులు ఉండరు.',
+    englishMeaning: 'I am mighty Time, the source of destruction that comes forth to annihilate the worlds. Even without your participation, all the warriors arrayed in opposing ranks will cease to exist.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 11 - Vishwarupa Darshana Yoga',
-    chapterTeluguTitle: 'పదకొండవ అధ్యాయము - విశ్వరూప సందర్శన యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 11 - విశ్వరూప దర్శన యోగం',
     verseNumber: '11.33',
-    sanskrit:
-        'तस्मात्त्वमुत्तिष्ठ यशो लभस्व\nजित्वा शत्रून भुङ्क्ष्व राज्यं समृद्धम्।\nमयैवेते निहताः पूर्वमेव\nनिमित्तमात्रं भव सव्यसाचिन्॥',
-    transliteration:
-        'tasmat tvam uttishtha yasho labhasva jitva shatrun bhunkshva rajyam samriddham\nmayaivaite nihatah purvam eva nimitta-matram bhava savya-sachin',
-    teluguMeaning:
-        'కాబట్టి నువ్వు లే, కీర్తిని పొందు, శత్రువులను జయించి సమృద్ధమైన రాజ్యాన్ని అనుభవించు. వీరంతా ఇప్పటికే నా చేత చంపబడ్డారు. ఓ సవ్యసాచీ! నువ్వు కేవలం నిమిత్తమాత్రుడివి కా.',
-    englishMeaning:
-        'Therefore get up, prepare to fight and win glory. Conquer your enemies and enjoy a flourishing kingdom. They are already put to death by My arrangement, and you, O Savyasachin, can be but an instrument in the fight.',
+    sanskrit: 'తస్మాత్త్వముత్తిష్ఠ యశో లభస్వ జిత్వా శత్రూన్భుంక్ష్వ రాజ్యం సమృద్ధమ్ |\nమయైవైతే నిహతాః పూర్వమేవ నిమిత్తమాత్రం భవ సవ్యసాచిన్ ||',
+    transliteration: 'tasmāt tvam uttiṣṭha yaśo labhasva jitvā śatrūn bhuṅkṣva rājyaṃ samṛddham | mayaivaitete nihatāḥ pūrvam eva nimitta-mātraṃ bhava savyasācin ||',
+    teluguMeaning: 'కాబట్టి లేచి, శత్రువులను జయించి, యశస్సు పొంది, సంపన్నమైన రాజ్యాన్ని అనుభవించు. ఇవందరూ ముందే నా చేత చంపబడ్డారు. నువ్వు కేవలం నిమిత్తమాత్రుడవు.',
+    englishMeaning: 'Therefore, arise and gain glory. Conquer your enemies and enjoy a flourishing kingdom. They are already put to death by Me. You are merely the instrument.',
+  ),
+
+  // Chapter 12 - Bhakti Yoga
+  const Sloka(
+    chapterTitle: 'Chapter 12 - Bhakti Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 12 - భక్తి యోగం',
+    verseNumber: '12.13',
+    sanskrit: 'అద్వేష్టా సర్వభూతానాం మైత్రః కరుణ ఏవ చ |\nనిర్మమో నిరహంకారః సమదుఃఖసుఖః క్షమీ ||',
+    transliteration: 'adveṣṭā sarva-bhūtānāṃ maitraḥ karuṇa eva ca | nirmamo nirahaṃkāraḥ sama-duḥkha-sukhaḥ kṣamī ||',
+    teluguMeaning: 'అన్ని జీవులపట్ల ద్వేషం లేనివాడు, మైత్రీ కరుణాస్వభావుడు, మమకారం అహంకారం లేనివాడు, సుఖదుఃఖాలలో సమానంగా ఉండేవాడు, క్షమాశీలుడు — ఇవి నాకు ప్రియమైన భక్తుని లక్షణాలు.',
+    englishMeaning: 'One who is not envious but is a kind friend to all living entities, who does not think himself a proprietor, who is free from false ego and equal in both happiness and distress, who is tolerant — such a devotee is very dear to Me.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 12 - Bhakti Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 12 - భక్తి యోగం',
+    verseNumber: '12.15',
+    sanskrit: 'యస్మాన్నోద్విజతే లోకో లోకాన్నోద్విజతే చ యః |\nహర్షామర్షభయోద్వేగైర్ముక్తో యః స చ మే ప్రియః ||',
+    transliteration: 'yasmān nodvijate loko lokān nodvijate ca yaḥ | harṣāmarṣa-bhayodvegair mukto yaḥ sa ca me priyaḥ ||',
+    teluguMeaning: 'ఎవని వల్ల లోకం కలవరపడదో, ఎవడు లోకం వల్ల కలవరపడడో, సంతోషం అసూయ భయం ఆందోళన నుండి ముక్తుడైనవాడు నాకు ప్రియుడు.',
+    englishMeaning: 'One who does not disturb the world and is not disturbed by it, who is free from elation, envy, fear, and anxiety — such a person is very dear to Me.',
+  ),
+
+  // Chapter 13 - Kshetra Kshetrajna Vibhaga Yoga
+  const Sloka(
+    chapterTitle: 'Chapter 13 - Kshetra Kshetrajna Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 13 - క్షేత్ర క్షేత్రజ్ఞ విభాగ యోగం',
+    verseNumber: '13.2',
+    sanskrit: 'క్షేత్రజ్ఞం చాపి మాం విద్ధి సర్వక్షేత్రేషు భారత |\nక్షేత్రక్షేత్రజ్ఞయోర్జ్ఞానం యత్తజ్జ్ఞానం మతం మమ ||',
+    transliteration: 'kṣetra-jñaṃ cāpi māṃ viddhi sarva-kṣetreṣu bhārata | kṣetra-kṣetrajñayor jñānaṃ yat taj jñānaṃ mataṃ mama ||',
+    teluguMeaning: 'అన్ని క్షేత్రాలలో క్షేత్రజ్ఞుడిని కూడా నేనేనని తెలుసుకో. క్షేత్రం మరియు క్షేత్రజ్ఞుని గురించిన జ్ఞానమే నిజమైన జ్ఞానమని నా మతం.',
+    englishMeaning: 'Know Me to be the knower in all fields of activity. Understanding the difference between the field and its knower is called true knowledge.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 13 - Kshetra Kshetrajna Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 13 - క్షేత్ర క్షేత్రజ్ఞ విభాగ యోగం',
+    verseNumber: '13.28',
+    sanskrit: 'సమం సర్వేషు భూతేషు తిష్ఠంతం పరమేశ్వరమ్ |\nవినశ్యత్స్వవినశ్యంతం యః పశ్యతి స పశ్యతి ||',
+    transliteration: 'samaṃ sarveṣu bhūteṣu tiṣṭhantaṃ parameśvaram | vinaśyatsv avinaśyantaṃ yaḥ paśyati sa paśyati ||',
+    teluguMeaning: 'నాశవంతమైన జీవులందులో నాశనం లేని పరమేశ్వరుని సమంగా చూసేవాడే నిజంగా చూసినవాడు.',
+    englishMeaning: 'One who sees the Supreme Lord equally present everywhere and in every living being does not degrade himself by his mind. He thus approaches the transcendental destination.',
+  ),
+
+  // Chapter 14 - Gunatraya Vibhaga Yoga
+  const Sloka(
+    chapterTitle: 'Chapter 14 - Gunatraya Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 14 - గుణత్రయ విభాగ యోగం',
+    verseNumber: '14.5',
+    sanskrit: 'సత్త్వం రజస్తమ ఇతి గుణాః ప్రకృతిసంభవాః |\nనిబధ్నంతి మహాబాహో దేహే దేహినమవ్యయమ్ ||',
+    transliteration: 'sattvaṃ rajas tama iti guṇāḥ prakṛti-sambhavāḥ | nibadhnanti mahābāho dehe dehinam avyayam ||',
+    teluguMeaning: 'సత్త్వం, రజస్సు, తమస్సు అనే గుణాలు ప్రకృతి నుండి పుట్టినవి. ఇవి అవ్యయుడైన ఆత్మను శరీరంలో బంధిస్తాయి.',
+    englishMeaning: 'Material nature consists of three modes — goodness, passion, and ignorance. When the eternal living entity comes in contact with nature, it becomes conditioned by these modes.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 14 - Gunatraya Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 14 - గుణత్రయ విభాగ యోగం',
+    verseNumber: '14.26',
+    sanskrit: 'మాం చ యోఽవ్యభిచారేణ భక్తియోగేన సేవతే |\nస గుణాన్సమతీత్యైతాన్బ్రహ్మభూయాయ కల్పతే ||',
+    transliteration: 'māṃ ca yo\'vyabhicāreṇa bhakti-yogena sevate | sa guṇān samatītyaitān brahma-bhūyāya kalpate ||',
+    teluguMeaning: 'నన్ను అవ్యభిచారమైన భక్తియోగంతో సేవించేవాడు ఈ మూడు గుణాలను దాటి బ్రహ్మస్వరూపానికి అర్హుడవుతాడు.',
+    englishMeaning: 'One who engages in full devotional service to Me, unfailing in all circumstances, at once transcends the modes of material nature and attains the level of Brahman.',
+  ),
+
+  // Chapter 15 - Purushottama Yoga
+  const Sloka(
+    chapterTitle: 'Chapter 15 - Purushottama Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 15 - పురుషోత్తమ యోగం',
+    verseNumber: '15.7',
+    sanskrit: 'మమైవాంశో జీవలోకే జీవభూతః సనాతనః |\nమనఃషష్ఠానీంద్రియాణి ప్రకృతిస్థాని కర్షతి ||',
+    transliteration: 'mamaivāṃśo jīva-loke jīva-bhūtaḥ sanātanaḥ | manaḥ-ṣaṣṭhānīndriyāṇi prakṛti-sthāni karṣati ||',
+    teluguMeaning: 'ఈ జీవ లోకంలో జీవులుగా ఉన్న సనాతనమైన జీవాత్మలు నా అంశాలే. అవి ప్రకృతిలో ఉండి మనసు మరియు ఐదు ఇంద్రియాలను ఆకర్షిస్తాయి.',
+    englishMeaning: 'The living entities in this world are My eternal fragmental parts. Due to conditioned life, they are struggling very hard with the six senses, which include the mind.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 15 - Purushottama Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 15 - పురుషోత్తమ యోగం',
+    verseNumber: '15.15',
+    sanskrit: 'సర్వస్య చాహం హృది సంనివిష్టో మత్తః స్మృతిర్జ్ఞానమపోహనం చ |\nవేదైశ్చ సర్వైరహమేవ వేద్యో వేదాంతకృద్వేదవిదేవ చాహమ్ ||',
+    transliteration: 'sarvasya cāhaṃ hṛdi saṃniviṣṭo mattaḥ smṛtir jñānam apohanaṃ ca | vedaiś ca sarvair aham eva vedyo vedānta-kṛd veda-vid eva cāham ||',
+    teluguMeaning: 'అన్నింటి హృదయంలో నేను నెలకొని ఉన్నాను. జ్ఞాపకం, జ్ఞానం, విస్మరణ నా వల్లనే కలుగుతాయి. అన్ని వేదాల ద్వారా తెలుసుకోవలసింది నేనే. వేదాంత కర్తను, వేదవేత్తను కూడా నేనే.',
+    englishMeaning: 'I am seated in everyone\'s heart, and from Me come remembrance, knowledge, and forgetfulness. By all the Vedas, I am to be known. Indeed, I am the compiler of Vedanta, and I am the knower of the Vedas.',
+  ),
+
+  // Chapter 16 - Daivasura Sampad Vibhaga Yoga
+  const Sloka(
+    chapterTitle: 'Chapter 16 - Daivasura Sampad Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 16 - దైవాసుర సంపద్విభాగ యోగం',
+    verseNumber: '16.1',
+    sanskrit: 'అభయం సత్త్వసంశుద్ధిర్జ్ఞానయోగవ్యవస్థితిః |\nదానం దమశ్చ యజ్ఞశ్చ స్వాధ్యాయస్తప ఆర్జవమ్ ||',
+    transliteration: 'abhayaṃ sattva-saṃśuddhir jñāna-yoga-vyavasthitiḥ | dānaṃ damaś ca yajñaś ca svādhyāyas tapa ārjavam ||',
+    teluguMeaning: 'భయం లేకపోవడం, సత్త్వశుద్ధి, జ్ఞానయోగంలో స్థిరత్వం, దానం, ఇంద్రియనిగ్రహం, యజ్ఞం, స్వాధ్యాయం, తపస్సు, నిజాయితీ — ఇవి దైవిక సంపత్తికి చెందిన లక్షణాలు.',
+    englishMeaning: 'Fearlessness, purification of existence, cultivation of spiritual knowledge, charity, control of the senses, performance of sacrifice, study of the scriptures, austerity, and simplicity — these are the divine qualities.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 16 - Daivasura Sampad Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 16 - దైవాసుర సంపద్విభాగ యోగం',
+    verseNumber: '16.21',
+    sanskrit: 'త్రివిధం నరకస్యేదం ద్వారం నాశనమాత్మనః |\nకామః క్రోధస్తథా లోభస్తస్మాదేతత్త్రయం త్యజేత్ ||',
+    transliteration: 'tri-vidhaṃ narakasyedaṃ dvāraṃ nāśanam ātmanaḥ | kāmaḥ krodhas tathā lobhas tasmād etat trayaṃ tyajet ||',
+    teluguMeaning: 'కామం, క్రోధం, లోభం — ఈ మూడు నరకానికి మూడు ద్వారాలు, ఆత్మను నాశనం చేసేవి. కాబట్టి వీటిని విడిచిపెట్టాలి.',
+    englishMeaning: 'There are three gates leading to hell — lust, anger, and greed. Every sane man should give these up, for they lead to the degradation of the soul.',
+  ),
+
+  // Chapter 17 - Shraddhatraya Vibhaga Yoga
+  const Sloka(
+    chapterTitle: 'Chapter 17 - Shraddhatraya Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 17 - శ్రద్ధాత్రయ విభాగ యోగం',
+    verseNumber: '17.3',
+    sanskrit: 'సత్త్వానురూపా సర్వస్య శ్రద్ధా భవతి భారత |\nశ్రద్ధామయోఽయం పురుషో యో యచ్ఛ్రద్ధః స ఏవ సః ||',
+    transliteration: 'sattvānurūpā sarvasya śraddhā bhavati bhārata | śraddhā-mayo\'yaṃ puruṣo yo yac-chraddhaḥ sa eva saḥ ||',
+    teluguMeaning: 'ప్రతి మనిషి యొక్క విశ్వాసం అతని స్వభావాన్ని అనుసరించి ఉంటుంది. మనిషి విశ్వాసంతో నిండినవాడు. అతను ఏ విశ్వాసం కలిగినవాడో, అతనే అది.',
+    englishMeaning: 'The faith of every man conforms to his nature. Man is made of faith; as his faith is, so he is.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 17 - Shraddhatraya Vibhaga Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 17 - శ్రద్ధాత్రయ విభాగ యోగం',
+    verseNumber: '17.28',
+    sanskrit: 'అశ్రద్ధయా హుతం దత్తం తపస్తప్తం కృతం చ యత్ |\nఅసదిత్యుచ్యతే పార్థ న చ తత్ప్రేత్య నో ఇహ ||',
+    transliteration: 'aśraddhayā hutaṃ dattaṃ tapas taptaṃ kṛtaṃ ca yat | asad ity ucyate pārtha na ca tat pretya no iha ||',
+    teluguMeaning: 'శ్రద్ధ లేకుండా చేసిన హోమం, ఇచ్చిన దానం, చేసిన తపస్సు — ఇవి అసత్ అని చెప్పబడుతాయి. ఇవి ఇహంలో గాని, పరంలో గాని ఫలం ఇవ్వవు.',
+    englishMeaning: 'Anything done as sacrifice, charity, or penance without faith in the Supreme is impermanent and is called asat. It is useless both in this life and the next.',
+  ),
+
+  // Chapter 18 - Moksha Sanyasa Yoga
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.2',
+    sanskrit: 'కామ్యానాం కర్మణాం న్యాసం సంన్యాసం కవయో విదుః |\nసర్వకర్మఫలత్యాగం ప్రాహుస్త్యాగం విచక్షణాః ||',
+    transliteration: 'kāmyānāṃ karmaṇāṃ nyāsaṃ sannyāsaṃ kavayo viduḥ | sarva-karma-phala-tyāgaṃ prāhus tyāgaṃ vicakṣaṇāḥ ||',
+    teluguMeaning: 'కోరికతో చేసే కర్మలను విడిచిపెట్టడమే సన్యాసమని జ్ఞానులు తెలుసుకుంటారు. అన్ని కర్మఫలాలను త్యజించడమే త్యాగమని విజ్ఞులు చెప్తారు.',
+    englishMeaning: 'The sages understand renunciation as the giving up of all activities performed for desire. The wise declare the abandonment of the results of all actions to be true renunciation.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.20',
+    sanskrit: 'సర్వభూతేషు యేనైకం భావమవ్యయమీక్షతే |\nఅవిభక్తం విభక్తేషు తజ్జ్ఞానం విద్ధి సాత్త్వికమ్ ||',
+    transliteration: 'sarva-bhūteṣu yenaikaṃ bhāvam avyayam īkṣate | avibhaktaṃ vibhakteṣu taj jñānaṃ viddhi sāttvikam ||',
+    teluguMeaning: 'అన్ని జీవులలో విభజించబడకుండా ఉన్న ఒకే అవ్యయమైన భావాన్ని చూసేది సాత్విక జ్ఞానం.',
+    englishMeaning: 'That knowledge by which one undivided spiritual nature is seen in all living entities, though they are divided into innumerable forms, is to be understood as knowledge in the mode of goodness.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.45',
+    sanskrit: 'స్వే స్వే కర్మణ్యభిరతః సంసిద్ధిం లభతే నరః |\nస్వకర్మనిరతః సిద్ధిం యథా విందతి తచ్ఛృణు ||',
+    transliteration: 'sve sve karmaṇy abhirataḥ saṃsiddhiṃ labhate naraḥ | sva-karma-nirataḥ siddhiṃ yathā vindati tac chṛṇu ||',
+    teluguMeaning: 'ప్రతి మనిషి తన తన కర్మలో నిమగ్నుడై సిద్ధిని పొందుతాడు. తన కర్మలో నిమగ్నుడు ఎలా సిద్ధిని పొందుతాడో వినుము.',
+    englishMeaning: 'By following his qualities of work, every man can become perfect. Listen how a man can attain perfection by performing his natural work.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.46',
+    sanskrit: 'యతః ప్రవృత్తిర్భూతానాం యేన సర్వమిదం తతమ్ |\nస్వకర్మణా తమభ్యర్చ్య సిద్ధిం విందతి మానవః ||',
+    transliteration: 'yataḥ pravṛttir bhūtānāṃ yena sarvam idaṃ tatam | sva-karmaṇā tam abhyarcya siddhiṃ vindati mānavaḥ ||',
+    teluguMeaning: 'అన్ని జీవులు దేని నుండి ఉద్భవిస్తాయో, ఈ సర్వమూ దేనిచే వ్యాపించి ఉందో, అతన్ని తన కర్మతో పూజించడం ద్వారా మానవుడు సిద్ధిని పొందుతాడు.',
+    englishMeaning: 'By worship of the Lord through the performance of one\'s own work, a person can attain perfection.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.55',
+    sanskrit: 'భక్త్యా మామభిజానాతి యావాన్యశ్చాస్మి తత్త్వతః |\nతతో మాం తత్త్వతో జ్ఞాత్వా విశతే తదనంతరమ్ ||',
+    transliteration: 'bhaktyā mām abhijānāti yāvān yaś cāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tad-anantaram ||',
+    teluguMeaning: 'భక్తి ద్వారా మాత్రమే నేను ఎంతటివాడినో, ఎవడినో తత్త్వంగా తెలుసుకోగలడు. తత్త్వంగా తెలుసుకున్న తర్వాత వెంటనే నన్ను చేరుకుంటాడు.',
+    englishMeaning: 'One can understand Me as I am only by devotional service. And when one is in full consciousness of Me by such devotion, he can enter into the kingdom of God.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.61',
+    sanskrit: 'ఈశ్వరః సర్వభూతానాం హృద్దేశేఽర్జున తిష్ఠతి |\nభ్రామయన్సర్వభూతాని యంత్రారూఢాని మాయయా ||',
+    transliteration: 'īśvaraḥ sarva-bhūtānāṃ hṛd-deśe\'rjuna tiṣṭhati | bhrāmayan sarva-bhūtāni yantrārūḍhāni māyayā ||',
+    teluguMeaning: 'ఓ అర్జునా! ఈశ్వరుడు అన్ని జీవుల హృదయంలో స్థితుడై, యంత్రంపై ఆరూఢులైన జీవులందరినీ మాయతో తిప్పుతున్నాడు.',
+    englishMeaning: 'The Supreme Lord is situated in everyone\'s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine made of material energy.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.63',
+    sanskrit: 'ఇతి తే జ్ఞానమాఖ్యాతం గుహ్యాద్గుహ్యతరం మయా |\nవిమృశ్యైతదశేషేణ యథేచ్ఛసి తథా కురు ||',
+    transliteration: 'iti te jñānam ākhyātaṃ guhyād guhyataraṃ mayā | vimṛśyaitad aśeṣeṇa yathecchasi tathā kuru ||',
+    teluguMeaning: 'ఇలా నేను నీకు రహస్యాలలో అతి రహస్యమైన జ్ఞానాన్ని చెప్పాను. దీన్ని పూర్తిగా ఆలోచించి, నీకు ఇష్టమైనట్లు చేయి.',
+    englishMeaning: 'Thus I have explained to you the most confidential of all knowledge. Deliberate on this fully, and then do what you wish to do.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.65',
+    sanskrit: 'మన్మనా భవ మద్భక్తో మద్యాజీ మాం నమస్కురు |\nమామేవైష్యసి సత్యం తే ప్రతిజానే ప్రియోఽసి మే ||',
+    transliteration: 'man-manā bhava mad-bhakto mad-yājī māṃ namaskuru | mām evaiṣyasi satyaṃ te pratijāne priyo\'si me ||',
+    teluguMeaning: 'నన్ను మనసులో ధ్యానించు, నా భక్తుడవు అవ్వు, నన్ను పూజించు, నాకు నమస్కరించు. నిస్సందేహంగా నన్నే చేరుకుంటావు. నీవు నాకు ప్రియుడవు కాబట్టి నిజంగా ప్రతిజ్ఞ చేస్తున్నాను.',
+    englishMeaning: 'Always think of Me, become My devotee, worship Me, and offer homage unto Me. Thus you will come to Me without fail. I promise you this because you are My very dear friend.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.66',
+    sanskrit: 'సర్వధర్మాన్పరిత్యజ్య మామేకం శరణం వ్రజ |\nఅహం త్వా సర్వపాపేభ్యో మోక్షయిష్యామి మా శుచః ||',
+    transliteration: 'sarva-dharmān parityajya mām ekaṃ śaraṇaṃ vraja | ahaṃ tvā sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ ||',
+    teluguMeaning: 'అన్ని ధర్మాలను విడిచిపెట్టి నన్ను మాత్రమే శరణు పొందు. నేను నిన్ను అన్ని పాపాల నుండి విముక్తుడిని చేస్తాను. విచారించకు.',
+    englishMeaning: 'Abandon all varieties of dharma and just surrender unto Me. I shall deliver you from all sinful reactions. Do not fear.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.70',
+    sanskrit: 'అధ్యేష్యతే చ య ఇమం ధర్మ్యం సంవాదమావయోః |\nజ్ఞానయజ్ఞేన తేనాహమిష్టః స్యామితి మే మతిః ||',
+    transliteration: 'adhyeṣyate ca ya imaṃ dharmyaṃ saṃvādam āvayoḥ | jñāna-yajñena tenāham iṣṭaḥ syām iti me matiḥ ||',
+    teluguMeaning: 'మన ఇద్దరి ఈ ధర్మ సంభాషణను చదివేవాడు జ్ఞాన యజ్ఞంతో నన్ను పూజించినవాడవుతాడని నా అభిప్రాయం.',
+    englishMeaning: 'And I declare that he who studies this sacred conversation of ours worships Me by his intelligence.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.73',
+    sanskrit: 'అర్జున ఉవాచ |\nనష్టో మోహః స్మృతిర్లబ్ధా త్వత్ప్రసాదాన్మయాచ్యుత |\nస్థితోఽస్మి గతసందేహః కరిష్యే వచనం తవ ||',
+    transliteration: 'arjuna uvāca | naṣṭo mohaḥ smṛtir labdhā tvat-prasādān mayācyuta | sthito\'smi gata-sandehaḥ kariṣye vacanaṃ tava ||',
+    teluguMeaning: 'అర్జునుడు అన్నాడు: ఓ అచ్యుతా! నీ అనుగ్రహంతో నా మోహం నశించింది, జ్ఞాపకం వచ్చింది. సందేహాలు తీరాయి. నీ వచనాన్ని పాటిస్తాను.',
+    englishMeaning: 'Arjuna said: My dear Krishna, O infallible one, my illusion is now gone. I have regained my memory by Your mercy. I am now firm and free from doubt and am prepared to act according to Your instructions.',
+  ),
+
+  // Extra famous slokas from various chapters
+  const Sloka(
+    chapterTitle: 'Chapter 2 - Sankhya Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
+    verseNumber: '2.14',
+    sanskrit: 'మాత్రాస్పర్శాస్తు కౌంతేయ శీతోష్ణసుఖదుఃఖదాః |\nఆగమాపాయినోఽనిత్యాస్తాంస్తితిక్షస్వ భారత ||',
+    transliteration: 'mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ | āgamāpāyino\'nityās tāṃs titikṣasva bhārata ||',
+    teluguMeaning: 'ఇంద్రియ స్పర్శలు చలి వేడి సుఖ దుఃఖాలను కలిగిస్తాయి. అవి వచ్చిపోయేవి, అనిత్యాలు. వాటిని సహించుము.',
+    englishMeaning: 'The contacts of the senses with their objects, which give rise to feelings of heat and cold, pleasure and pain, are transient and impermanent. Endure them, O Arjuna.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 2 - Sankhya Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 2 - సాంఖ్య యోగం',
+    verseNumber: '2.23',
+    sanskrit: 'నైనం ఛిందంతి శస్త్రాణి నైనం దహతి పావకః |\nన చైనం క్లేదయంత్యాపో న శోషయతి మారుతః ||',
+    transliteration: 'nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ | na cainaṃ kledayanty āpo na śoṣayati mārutaḥ ||',
+    teluguMeaning: 'ఆత్మను ఆయుధాలు ఖండించలేవు, అగ్ని దహించలేదు, నీరు తడపలేదు, వాయువు ఆరిపోయేలా చేయలేదు.',
+    englishMeaning: 'The soul can never be cut to pieces by any weapon, nor burned by fire, nor moistened by water, nor withered by the wind.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 3 - Karma Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 3 - కర్మ యోగం',
+    verseNumber: '3.27',
+    sanskrit: 'ప్రకృతేః క్రియమాణాని గుణైః కర్మాణి సర్వశః |\nఅహంకారవిమూఢాత్మా కర్తాహమితి మన్యతే ||',
+    transliteration: 'prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ | ahaṃkāra-vimūḍhātmā kartāham iti manyate ||',
+    teluguMeaning: 'అన్ని కర్మలూ ప్రకృతి గుణాలచే చేయబడుతున్నాయి. అహంకారంతో మోహం పొందినవాడు నేనే కర్తను అని భావిస్తాడు.',
+    englishMeaning: 'All actions are actually performed by the modes of material nature. The fool who thinks he is the doer is deluded by false ego.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 4 - Jnana Karma Sanyasa Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 4 - జ్ఞాన కర్మ సన్యాస యోగం',
+    verseNumber: '4.24',
+    sanskrit: 'బ్రహ్మార్పణం బ్రహ్మ హవిర్బ్రహ్మాగ్నౌ బ్రహ్మణా హుతమ్ |\nబ్రహ్మైవ తేన గంతవ్యం బ్రహ్మకర్మసమాధినా ||',
+    transliteration: 'brahmārpaṇaṃ brahma havir brahmāgnau brahmaṇā hutam | brahmaiva tena gantavyaṃ brahma-karma-samādhinā ||',
+    teluguMeaning: 'అర్పించేది బ్రహ్మ, అర్పించేవాడు బ్రహ్మ, అగ్ని బ్రహ్మ, హవిస్సు బ్రహ్మ. బ్రహ్మకర్మ సమాధితో బ్రహ్మాన్నే చేరుకుంటాడు.',
+    englishMeaning: 'A person who is fully absorbed in Krishna consciousness is sure to attain the spiritual kingdom because of his full contribution to spiritual activities, in which the consummation is absolute and that which is offered is of the same spiritual nature.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 6 - Dhyana Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 6 - ధ్యాన యోగం',
+    verseNumber: '6.19',
+    sanskrit: 'యథా దీపో నివాతస్థో నేంగతే సోపమా స్మృతా |\nయోగినో యతచిత్తస్య యుంజతో యోగమాత్మనః ||',
+    transliteration: 'yathā dīpo nivāta-stho neṅgate sopamā smṛtā | yogino yata-cittasya yuñjato yogam ātmanaḥ ||',
+    teluguMeaning: 'గాలి లేని చోట వెలుగు దీపం కదలదు — ఆ ఉపమానం మనసు నిగ్రహించుకున్న యోగికి చెప్పబడింది.',
+    englishMeaning: 'As a lamp in a windless place does not flicker, so the disciplined mind of a yogi meditating on the self does not waver.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 9 - Raja Vidya Raja Guhya Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 9 - రాజ విద్యా రాజ గుహ్య యోగం',
+    verseNumber: '9.29',
+    sanskrit: 'సమోఽహం సర్వభూతేషు న మే ద్వేష్యోఽస్తి న ప్రియః |\nయే భజంతి తు మాం భక్త్యా మయి తే తేషు చాప్యహమ్ ||',
+    transliteration: 'samo\'haṃ sarva-bhūteṣu na me dveṣyo\'sti na priyaḥ | ye bhajanti tu māṃ bhaktyā mayi te teṣu cāpy aham ||',
+    teluguMeaning: 'నేను అన్ని జీవులలో సమంగా ఉంటాను. నాకు ద్వేషింపదగ్గవాడు లేదు, ప్రియుడు లేదు. కానీ భక్తితో నన్ను సేవించేవారు నాలో ఉంటారు, నేను వారిలో ఉంటాను.',
+    englishMeaning: 'I am equally disposed to all living beings; I am neither partial nor inimical to anyone. But those who worship Me with devotion are in Me, and I am also in them.',
+  ),
+  const Sloka(
+    chapterTitle: 'Chapter 10 - Vibhuti Yoga',
+    chapterTeluguTitle: 'అధ్యాయం 10 - విభూతి యోగం',
+    verseNumber: '10.10',
+    sanskrit: 'తేషాం సతతయుక్తానాం భజతాం ప్రీతిపూర్వకమ్ |\nదదామి బుద్ధియోగం తం యేన మాముపయాంతి తే ||',
+    transliteration: 'teṣāṃ satata-yuktānāṃ bhajatāṃ prīti-pūrvakam | dadāmi buddhi-yogaṃ taṃ yena mām upayānti te ||',
+    teluguMeaning: 'నిత్యం నిమగ్నులై ప్రీతితో నన్ను సేవించేవారికి వారు నన్ను చేరుకునే బుద్ధియోగాన్ని నేను ఇస్తాను.',
+    englishMeaning: 'To those who are constantly devoted and who worship Me with love, I give the understanding by which they can come to Me.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 11 - Vishwarupa Darshana Yoga',
-    chapterTeluguTitle: 'పదకొండవ అధ్యాయము - విశ్వరూప సందర్శన యోగము',
-    verseNumber: '11.54',
-    sanskrit:
-        'भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन।\nज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप॥',
-    transliteration:
-        'bhaktya tv ananyaya shakya aham evam-vidho rjuna\njnatum drashtum cha tattvena praveshtum cha parantapa',
-    teluguMeaning:
-        'ఓ పరంతపా! అర్జునా! అనన్యమైన భక్తి చేత మాత్రమే నా ఈ విశ్వరూపాన్ని నిజంగా తెలుసుకోవడం, దర్శించడం మరియు నన్ను చేరుకోవడం సాధ్యమవుతుంది.',
-    englishMeaning:
-        'My dear Arjuna, only by undivided devotional service can I be understood as I am, standing before you, and can thus be seen directly. Only in this way can you enter into the mysteries of My understanding.',
+    chapterTeluguTitle: 'అధ్యాయం 11 - విశ్వరూప దర్శన యోగం',
+    verseNumber: '11.8',
+    sanskrit: 'న తు మాం శక్యసే ద్రష్టుమనేనైవ స్వచక్షుషా |\nదివ్యం దదామి తే చక్షుః పశ్య మే యోగమైశ్వరమ్ ||',
+    transliteration: 'na tu māṃ śakyase draṣṭum anenaiva sva-cakṣuṣā | divyaṃ dadāmi te cakṣuḥ paśya me yogam aiśvaram ||',
+    teluguMeaning: 'ఈ నీ కళ్ళతో నన్ను చూడలేవు. నీకు దివ్యమైన కళ్ళు ఇస్తున్నాను. నా ఐశ్వర్య యోగాన్ని చూడు.',
+    englishMeaning: 'But you cannot see Me with your present eyes. Therefore I give you divine eyes. Behold My mystic opulence!',
   ),
-
-  // ================= CHAPTER 12 - BHAKTI YOGA =================
   const Sloka(
     chapterTitle: 'Chapter 12 - Bhakti Yoga',
-    chapterTeluguTitle: 'పండ్రెండవ అధ్యాయము - భక్తి యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 12 - భక్తి యోగం',
     verseNumber: '12.8',
-    sanskrit:
-        'मय्येव मन आधत्स्व मयि बुद्धिं निवेशय।\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः॥',
-    transliteration:
-        'mayy eva mana adhatstva mayi buddhim niveshaya\nnivasishyasi mayy eva ata urdhvam na samshayah',
-    teluguMeaning:
-        'నీ మనస్సును నాపైనే నిలుపు, నీ బుద్ధిని నాకే అప్పగించు. ఆ తర్వాత నువ్వు నిశ్చయంగా నాలోనే నివసిస్తావు. ఇందులో ఎలాంటి సందేహం లేదు.',
-    englishMeaning:
-        'Just fix your mind upon Me, the Supreme Personality of Godhead, and engage all your intelligence in Me. Thus you will live in Me always, without a doubt.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 12 - Bhakti Yoga',
-    chapterTeluguTitle: 'పండ్రెండవ అధ్యాయము - భక్తి యోగము',
-    verseNumber: '12.13-14',
-    sanskrit:
-        'अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी॥\nसन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः।\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः॥',
-    transliteration:
-        'adveshta sarva-bhutanam maitrah karuna eva cha\nnirmamo nirahankarah sama-duhkha-sukhah kshami\nsantushtah satatam yogi yatatma dridha-nishchayah\nmayy arpita-mano-buddhir yo mad-bhaktah sa me priyah',
-    teluguMeaning:
-        'సమస్త ప్రాణుల పట్ల ద్వేషం లేనివాడు, స్నేహభావం, కరుణ గలవాడు, మమకారము, అహంకారము లేనివాడు, సుఖదుఃఖాలను సమానంగా చూసేవాడు, ఓర్పు గలవాడు, నిరంతరం సంతుష్టుడై ఉండే యోగి, నిశ్చయాత్మక బుద్ధిని నాకర్పించిన భక్తుడు నాకు అత్యంత ప్రియుడు.',
-    englishMeaning:
-        'One who is not envious but is a kind friend to all living entities, who does not think himself a proprietor and is free from false ego, who is equal in happiness and distress, who is tolerant, always satisfied, self-controlled, and engaged in devotional service with determination, his mind and intelligence fixed on Me—such a devotee of Mine is very dear to Me.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 12 - Bhakti Yoga',
-    chapterTeluguTitle: 'పండ్రెండవ అధ్యాయము - భక్తి యోగము',
-    verseNumber: '12.15',
-    sanskrit:
-        'यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः।\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः॥',
-    transliteration:
-        'yasman nodvijate loko lokan nodvijate cha yah\nharshamarsa-bhayodvegair mukto yah sa cha me priyah',
-    teluguMeaning:
-        'ఎవరి వలన లోకమునకు కష్టము కలగదో, లోకము వలన ఎవరికి కలత కలగదో, మరియు ఎవరైతే అతిగా సంతోషించడం, అసూయ పడడం, భయపడడం, ఆందోళన చెందడం వంటి వాటికి అతీతంగా ఉంటాడో, అతడు నాకు అత్యంత ప్రియమైనవాడు.',
-    englishMeaning:
-        'He by whom no one is agitated and who is not agitated by anyone, who is free from pleasure, anger, fear and anxiety, is very dear to Me.',
-  ),
-
-  // ================= CHAPTER 13 - KSHETRA KSHETRAJNA VIBHAGA YOGA =================
-  const Sloka(
-    chapterTitle: 'Chapter 13 - Kshetra Kshetrajna Vibhaga Yoga',
-    chapterTeluguTitle: 'పదమూడవ అధ్యాయము - క్షేత్ర క్షేత్రజ్ఞ విభాగ యోగము',
-    verseNumber: '13.2',
-    sanskrit:
-        'इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते।\nएतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः॥',
-    transliteration:
-        'idam shariram kaunteya kshetram ity abhidhiyate\netad yo vetti tam prahuh kshetrajna iti tad-vidah',
-    teluguMeaning:
-        'ఓ కౌంతేయా! ఈ శరీరాన్ని "క్షేత్రం" (పంటపొలం) అని అంటారు. ఈ శరీరాన్ని లోపల ఉండి తెలుసుకునే ఆత్మను "క్షేత్రజ్ఞుడు" అని జ్ఞానులు పిలుస్తారు.',
-    englishMeaning:
-        'O son of Kunti, this body is deemed called the field, and one who knows this body is called the knower of the field, by those who know them.',
+    sanskrit: 'మయ్యేవ మన ఆధత్స్వ మయి బుద్ధిం నివేశయ |\nనివసిష్యసి మయ్యేవ అత ఊర్ధ్వం న సంశయః ||',
+    transliteration: 'mayy eva mana ādhatsva mayi buddhiṃ niveśaya | nivasiṣyasi mayy eva ata ūrdhvaṃ na saṃśayaḥ ||',
+    teluguMeaning: 'మనసు నాలో నిలుపు, బుద్ధిని నాలో నిలుపు. తర్వాత నాలోనే నివసిస్తావు, సందేహం లేదు.',
+    englishMeaning: 'Fix your mind upon Me, the Supreme Personality of Godhead, and engage all your intelligence in Me. You will always live within Me thereafter, of this there is no doubt.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 13 - Kshetra Kshetrajna Vibhaga Yoga',
-    chapterTeluguTitle: 'పదమూడవ అధ్యాయము - క్షేత్ర క్షేత్రజ్ఞ విభాగ యోగము',
-    verseNumber: '13.22',
-    sanskrit:
-        'पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान्गुणान्।\nकारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु॥',
-    transliteration:
-        'purushah prakriti-stho hi bhunkte prakriti-jan gunan\nkaranam guna-sango sya sad-asad-yoni-janmasu',
-    teluguMeaning:
-        'ప్రకృతిలో నివసించే పురుషుడు (జీవుడు) ప్రకృతి వల్ల పుట్టిన త్రిగుణాలను అనుభవిస్తాడు. ఈ గుణాల పట్ల ఉన్న ఆసక్తే అతడు మంచి, చెడు జన్మలు ఎత్తడానికి కారణమవుతుంది.',
-    englishMeaning:
-        'The living entity in material nature thus follows the ways of life, enjoying the three modes of nature. This is due to his association with that material nature. Thus he meets with good and evil among various species.',
+    chapterTeluguTitle: 'అధ్యాయం 13 - క్షేత్ర క్షేత్రజ్ఞ విభాగ యోగం',
+    verseNumber: '13.8',
+    sanskrit: 'అమానిత్వమదంభిత్వమహింసా క్షాంతిరార్జవమ్ |\nఆచార్యోపాసనం శౌచం స్థైర్యమాత్మవినిగ్రహః ||',
+    transliteration: 'amānitvam adambhitvam ahiṃsā kṣāntir ārjavam | ācāryopāsanaṃ śaucaṃ sthairyam ātma-vinigrahaḥ ||',
+    teluguMeaning: 'గర్వం లేకపోవడం, డాంభికత లేకపోవడం, అహింస, సహనం, నిజాయితీ, గురు సేవ, శుచిత్వం, స్థిరత్వం, ఆత్మ నిగ్రహం — ఇవి జ్ఞానానికి చిహ్నాలు.',
+    englishMeaning: 'Humility, pridelessness, nonviolence, tolerance, simplicity, approaching a proper teacher, cleanliness, steadiness, and self-control — all these are declared to be knowledge.',
   ),
-  const Sloka(
-    chapterTitle: 'Chapter 13 - Kshetra Kshetrajna Vibhaga Yoga',
-    chapterTeluguTitle: 'పదమూడవ అధ్యాయము - క్షేత్ర క్షేత్రజ్ఞ విభాగ యోగము',
-    verseNumber: '13.34',
-    sanskrit:
-        'क्षेत्रक्षेत्रज्ञयोरेवमन्तरं ज्ञानचक्षुषा।\nभूतप्रकृतिमोक्षं च ये विदुर्यान्ति ते परम्॥',
-    transliteration:
-        'kshetra-kshetrajnayor evam antaram jnana-chakshusha\nbhuta-prakriti-moksham cha ye vidur yanti te param',
-    teluguMeaning:
-        'ఎవరైతే జ్ఞాననేత్రంతో శరీరం (క్షేత్రం) మరియు ఆత్మ (క్షేత్రజ్ఞుడు) మధ్య గల భేదాన్ని తెలుసుకుంటారో, వారు పరమపదాన్ని పొందుారు.',
-    englishMeaning:
-        'Those who see with eyes of knowledge the difference between the body and the knower of the body, and can also understand the process of liberation from material nature, attain to the supreme goal.',
-  ),
-
-  // ================= CHAPTER 14 - GUNATRAYA VIBHAGA YOGA =================
-  const Sloka(
-    chapterTitle: 'Chapter 14 - Gunatraya Vibhaga Yoga',
-    chapterTeluguTitle: 'పదునాలుగవ అధ్యాయము - గుణత్రయ విభాగ యోగము',
-    verseNumber: '14.5',
-    sanskrit:
-        'सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः।\nनिबध्नन्ति महाबाहो देहे देहिनमव्ययम्॥',
-    transliteration:
-        'sattvam rajas tama iti gunah prakriti-sambhavah\nnibadhnanti maha-baho dehe dehinam avyayam',
-    teluguMeaning:
-        'ఓ మహాబాహో! ప్రకృతి నుండి పుట్టిన సత్వ, రజ, తమో గుణాలనే త్రిగుణాలు.. అవ్యయమైన (నాశనం లేని) ఆత్మను శరీరంలో బంధిస్తాయి.',
-    englishMeaning:
-        'Material nature consists of three modes—goodness, passion and ignorance. When the eternal living entity comes in contact with nature, O mighty-armed Arjuna, he becomes conditioned by these modes.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 14 - Gunatraya Vibhaga Yoga',
-    chapterTeluguTitle: 'పదునాలుగవ అధ్యాయము - గుణత్రయ విభాగ యోగము',
-    verseNumber: '14.19',
-    sanskrit:
-        'नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति।\nगुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति॥',
-    transliteration:
-        'nanyam gunebhyah kartaram yada drashtanupashyati\ngunebhyash cha param vetti mad-bhavam so dhigachchhati',
-    teluguMeaning:
-        'ప్రకృతి గుణాలు తప్ప వేరే కర్త లేడని గ్రహించి, ఆ త్రిగుణాల కంటే అతీతమైన పరమాత్మను తెలుసుకున్నవాడు నా దివ్య స్వరూపాన్ని పొందుతాడు.',
-    englishMeaning:
-        'When one properly sees that in all activities no other performer is at work than these modes of nature, and he knows the Supreme Lord, who is transcendental to all these modes, he attains My spiritual nature.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 14 - Gunatraya Vibhaga Yoga',
-    chapterTeluguTitle: 'పదునాలుగవ అధ్యాయము - గుణత్రయ విభాగ యోగము',
-    verseNumber: '14.20',
-    sanskrit:
-        'गुणानेतानतीत्य त्रीन देही देहसमुद्भवान्।\nजन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते॥',
-    transliteration:
-        'gunan etan atitya trin dehi deha-samudbhavan\njanma-mrityu-jara-duhkhair vimukto mritam ashnute',
-    teluguMeaning:
-        'శరీర ఉత్పత్తికి కారణమైన సత్వ, రజ, తమో గుణాలనే ఈ మూడు గుణాలను దాటినవాడు, జన్మ మృత్యు జరా దుఃఖాల నుండి విముక్తుడై మోక్షాన్ని పొందుతాడు.',
-    englishMeaning:
-        'When the embodied being is able to transcend these three modes associated with the material body, he can become free from birth, death, old age and their distresses and can enjoy nectar even in this life.',
-  ),
-
-  // ================= CHAPTER 15 - PURUSHOTTAMA YOGA =================
   const Sloka(
     chapterTitle: 'Chapter 15 - Purushottama Yoga',
-    chapterTeluguTitle: 'పదిహేనవ అధ్యాయము - పురుషోత్తమ యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 15 - పురుషోత్తమ యోగం',
     verseNumber: '15.1',
-    sanskrit:
-        'श्रीभगवानुवाच।\nऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।\nछन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्॥',
-    transliteration:
-        'shri-bhagavan uvacha\nerdhva-mula madhah-shakham ashvattham prahur avyayam\nchhandansi yasya parnani yas tam veda sa veda-vit',
-    teluguMeaning:
-        'శ్రీభగవానుడు పలికెను: పైన వేళ్లు, కింద కొమ్మలు కలిగి, వేదములే ఆకులుగా ఉన్న అశాశ్వతమైన సంసారమనే అశ్వత్థ (రావి) వృక్షం గురించి లోకం చెబుతుంది. దీన్ని పూర్తిగా గ్రహించినవాడే వేదవిదుడు.',
-    englishMeaning:
-        'The Supreme Personality of Godhead said: It is said that there is an imperishable banyan tree that has its roots upward and its branches down and whose leaves are the Vedic hymns. One who knows this tree is the knower of the Vedas.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 15 - Purushottama Yoga',
-    chapterTeluguTitle: 'పదిహేనవ అధ్యాయము - పురుషోత్తమ యోగము',
-    verseNumber: '15.7',
-    sanskrit:
-        'ममैवांशो जीवलोके जीवभूतः सनातनः।\nमनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति॥',
-    transliteration:
-        'mamaivamsho jiva-loke jiva-bhutah sanatanah\nmanah-shashthanindriyani prakriti-sthani karshati',
-    teluguMeaning:
-        'ఈ జీవలోకములోని శాశ్వతమైన జీవులు నా అంశయే. మనస్సుతో సహా ఆరు ఇంద్రియాలను అవి ప్రకృతి నుండి ఆకర్షించుకుంటాయి.',
-    englishMeaning:
-        'The eternal living beings in this world of life are but fragments of My own self, who draw to themselves the mind and the five senses that rest in material nature.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 15 - Purushottama Yoga',
-    chapterTeluguTitle: 'పదిహేనవ అధ్యాయము - పురుషోత్తమ యోగము',
-    verseNumber: '15.15',
-    sanskrit:
-        'सर्वस्य चाहं हृदि सन्निविष्टो\nमत्तः स्मृतिर्ज्ञानमपोहनं च।\nवेदैश्च सर्वैरहमेव वेद्यो\nवेदान्तकृद्वेदविदेव चाहम्॥',
-    transliteration:
-        'sarvasya chaham hridi sannivishto mattah smritir janam apohanam cha\nvedaish cha sarvair aham eva vedyo vedanta-krid veda-vid eva chaham',
-    teluguMeaning:
-        'నేనే అందరి హృదయాలలో నివసిస్తున్నాను. నా వలనే జ్ఞాపకశక్తి, జ్ఞానము, అవి తొలగిపోవడము జరుగుతాయి. వేదాలన్నిటి ద్వారా తెలుసుకోదగినవాడిని నేనే. వేదాంతకర్తను, వేదాలను తెలిసినవాడిని నేనే.',
-    englishMeaning:
-        'I am seated in everyone\'s heart, and from Me come remembrance, knowledge and forgetfulness. By all the Vedas, I am to be known. Indeed, I am the compiler of Vedanta, and I am the knower of the Vedas.',
-  ),
-
-  // ================= CHAPTER 16 - DAIVASURA SAMPAD VIBHAGA YOGA =================
-  const Sloka(
-    chapterTitle: 'Chapter 16 - Daivasura Sampad Vibhaga Yoga',
-    chapterTeluguTitle: 'పదహారవ అధ్యాయము - దైవాసురసంపద్విభాగ యోగము',
-    verseNumber: '16.1-3',
-    sanskrit:
-        'अभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः।\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्॥\nअहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्।\nदया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्॥\nतेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता।\nभवन्ति सम्पदं दैवीमभिजातस्य भारत॥',
-    transliteration:
-        'abhayam sattva-sanshuddhir jnana-yoga-vyavasthitih\ndanam damash cha yajnash cha svadhyayastapa arjavam\nahinsa satyam akrodhas tyagah shantir apaishunam\ndaya bhuteshv aloluptvam mardavam hrir achapalam\ntejah kshama dhritih shaucham adroho nati-manita\nbhavanti sampadam daivim abhijatasya bharata',
-    teluguMeaning:
-        'భయం లేకపోవడం, అంతఃకరణ శుద్ధి, జ్ఞానయోగంలో నిలకడ, దానం, ఇంద్రియ నిగ్రహం, యజ్ఞం, వేదాధ్యయనం, తపస్సు, సత్ప్రవర్తన, అహింస, సత్యం, క్రోధం లేకపోవడం, త్యాగం, శాంతి, దయ, క్షమ, పట్టుదల, శుభ్రత.. ఇవన్నీ దైవీ సంపద గల లక్షణాలు.',
-    englishMeaning:
-        'Fearlessness; purification of one\'s existence; cultivation of spiritual knowledge; charity; self-control; performance of sacrifice; study of the Vedas; austerity; simplicity; nonviolence; truthfulness; freedom from anger; renunciation; tranquility; aversion to faultfinding; compassion for all living entities; freedom from covetousness; gentleness; modesty; steady determination; vigor; forgiveness; fortitude; cleanliness; and freedom from envy and from the passion for honor—these transcendental qualities belong to godly men endowed with divine nature.',
+    sanskrit: 'ఊర్ధ్వమూలమధఃశాఖమశ్వత్థం ప్రాహురవ్యయమ్ |\nఛందాంసి యస్య పర్ణాని యస్తం వేద స వేదవిత్ ||',
+    transliteration: 'ūrdhva-mūlam adhaḥ-śākham aśvatthaṃ prāhur avyayam | chandāṃsi yasya parṇāni yas taṃ veda sa veda-vit ||',
+    teluguMeaning: 'పైన వేర్లు కలిగి, క్రింద కొమ్మలు కలిగిన అశ్వత్థ వృక్షాన్ని అవ్యయమని చెప్తారు. దీన్ని తెలుసుకున్నవాడు వేదవేత్త.',
+    englishMeaning: 'The blessed Lord said: They speak of an imperishable ashvattha tree with its roots above and branches below, whose leaves are the Vedic hymns. One who knows this tree is the knower of the Vedas.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 16 - Daivasura Sampad Vibhaga Yoga',
-    chapterTeluguTitle: 'పదహారవ అధ్యాయము - దైవాసురసంపద్విభాగ యోగము',
-    verseNumber: '16.21',
-    sanskrit:
-        'त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः।\nकामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत्॥',
-    transliteration:
-        'tri-vidham narakasyedam dvaram nashanam atmanah\nkamah krodhas tatha lobhas tasmad etat trayam tyajet',
-    teluguMeaning:
-        'కామము, క్రోధము, లోభము అనేవి ఆత్మను నాశనం చేసే నరకానికి మూడు ద్వారాలు. కాబట్టి ప్రతి ఒక్కరూ ఈ మూడింటిని వదిలిపెట్టాలి.',
-    englishMeaning:
-        'There are three gates leading to this hell—lust, anger and greed. Every sane man should give these up, for they lead to the degradation of the soul.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 16 - Daivasura Sampad Vibhaga Yoga',
-    chapterTeluguTitle: 'పదహారవ అధ్యాయము - దైవాసురసంపద్విభాగ యోగము',
-    verseNumber: '16.23',
-    sanskrit:
-        'यः शास्त्रविधिमुत्सृज्य वर्तते कामकारतः।\nन स सिद्धिमवाप्नोति न सुखं न परां गतिम्॥',
-    transliteration:
-        'yah shastra-vidhim utsrijya vartate kama-karatah\nna sa siddhim avapnoti na sukham na param gatim',
-    teluguMeaning:
-        'శాస్త్ర నియమాలను వదిలిపెట్టి, తన ఇష్టానుసారంగా ప్రవర్తించేవాడు సిద్ధిని గానీ, సుఖాన్ని గానీ, పరమగతిని (మోక్షాన్ని) గానీ పొందలేడు.',
-    englishMeaning:
-        'He who discards scriptural injunctions and acts according to his own whims attains neither perfection, nor happiness, nor the supreme destination.',
-  ),
-
-  // ================= CHAPTER 17 - SHRADDHATRAYA VIBHAGA YOGA =================
-  const Sloka(
-    chapterTitle: 'Chapter 17 - Shraddhatraya Vibhaga Yoga',
-    chapterTeluguTitle: 'పదిheడవ అధ్యాయము - శ్రద్ధాత్రయ విభాగ యోగము',
-    verseNumber: '17.3',
-    sanskrit:
-        'सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत।\nश्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः॥',
-    transliteration:
-        'sattvanurupa sarvasya shraddha bhavati bharata\nshraddha-mayo yam purusho yo yac-chraddhah sa eva sah',
-    teluguMeaning:
-        'ఓ భారతా! ప్రతి మనిషి యొక్క శ్రద్ధ వారి వారి అంతఃకరణ స్వభావాన్ని బట్టి ఉంటుంది. మనిషి తన శ్రద్ధాస్వరూపుడే, ఎవడు ఎలాంటి శ్రద్ధ కలిగి ఉంటాడో అతడు అలాంటివాడే అవుతాడు.',
-    englishMeaning:
-        'According to one’s existence under the various modes of nature, one evolves a particular kind of faith. The living being is said to be of a particular faith according to the modes he has acquired.',
+    chapterTeluguTitle: 'అధ్యాయం 16 - దైవాసుర సంపద్విభాగ యోగం',
+    verseNumber: '16.3',
+    sanskrit: 'తేజః క్షమా ధృతిః శౌచమద్రోహో నాతిమానితా |\nభవంతి సంపదం దైవీమభిజాతస్య భారత ||',
+    transliteration: 'tejaḥ kṣamā dhṛtiḥ śaucam adroho nātimānitā | bhavanti sampadaṃ daivīm abhijātasya bhārata ||',
+    teluguMeaning: 'తేజస్సు, క్షమ, ధైర్యం, శుచిత్వం, ద్రోహం లేకపోవడం, అతిమానం లేకపోవడం — ఇవి దైవిక సంపత్తితో జన్మించిన వారికి ఉంటాయి.',
+    englishMeaning: 'Vigor, forgiveness, fortitude, cleanliness, freedom from malice, and freedom from pride — these are the qualities of one who is born with divine nature.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 17 - Shraddhatraya Vibhaga Yoga',
-    chapterTeluguTitle: 'పదిహేడవ అధ్యాయము - శ్రద్ధాత్రయ విభాగ యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 17 - శ్రద్ధాత్రయ విభాగ యోగం',
     verseNumber: '17.15',
-    sanskrit:
-        'अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत्।\nस्वाध्यायअभ्यसनं चैव वाङ्मयम् तप उच्यते॥',
-    transliteration:
-        'anudvegakaram vakyam satyam priya-hitam cha yat\nsvadhyayabhyasanam chaiva van-mayam tapa uchyate',
-    teluguMeaning:
-        'ఇతరులను కలత పెట్టనిది, సత్యమైనది, ప్రియమైనది, హితాన్ని కోరేది అయిన మాటలు మాట్లాడడం మరియు వేదాలను అభ్యసించడం "వాక్కు యొక్క తపస్సు" అని అంటారు.',
-    englishMeaning:
-        'Austerity of speech consists in speaking words that are truthful, pleasing, beneficial, and not agitating to others, and also in regularly reciting Vedic literature.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 17 - Shraddhatraya Vibhaga Yoga',
-    chapterTeluguTitle: 'పదిహేడవ అధ్యాయము - శ్రద్ధాత్రయ విభాగ యోగము',
-    verseNumber: '17.23',
-    sanskrit:
-        'ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः।\nब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा॥',
-    transliteration:
-        'om tat sad iti nirdesho brahmanas tri-vidhah smritah\nbrahmanas tena vedash cha yajnash cha vihitah pura',
-    teluguMeaning:
-        'సృష్టి ప్రారంభం నుండి పరబ్రహ్మమును సూచించడానికి "ఓం తత్ సత్" అనే మూడు పదాలు ఉపయోగించబడుతున్నాయి. వీటి ద్వారానే బ్రాహ్మణులు, వేదాలు, యజ్ఞాలు సృష్టించబడ్డాయి.',
-    englishMeaning:
-        'From the beginning of creation, the three words om tat sat were used to indicate the Supreme Absolute Truth. These three symbolic representations were used by brahmanas while chanting the hymns of the Vedas and during sacrifices for the satisfaction of the Supreme.',
-  ),
-
-  // ================= CHAPTER 18 - MOKSHA SANYASA YOGA =================
-  const Sloka(
-    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
-    chapterTeluguTitle: 'పద్దెనిమిదవ అధ్యాయము - మోక్ష సన్యాస యోగము',
-    verseNumber: '18.61',
-    sanskrit:
-        'ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति।\nभ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया॥',
-    transliteration:
-        'ishvarah sarva-bhutanam hrid-deshe rjuna tishthati\nbhramayan sarva-bhutani yantrarudhani mayaya',
-    teluguMeaning:
-        'ఓ అర్జునా! పరమేశ్వరుడు సమస్త ప్రాణుల హృదయాలలో నివసిస్తూ, తన మాయ చేత యంత్రంపై ఎక్కిన బొమ్మల వలె ఆయా ప్రాణులను భ్రమింపజేస్తున్నాడు.',
-    englishMeaning:
-        'The Supreme Lord is situated in everyone\'s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy.',
+    sanskrit: 'అనుద్వేగకరం వాక్యం సత్యం ప్రియహితం చ యత్ |\nస్వాధ్యాయాభ్యసనం చైవ వాఙ్మయం తప ఉచ్యతే ||',
+    transliteration: 'anudvega-karaṃ vākyaṃ satyaṃ priya-hitaṃ ca yat | svādhyāyābhyasanaṃ caiva vāṅ-mayaṃ tapa ucyate ||',
+    teluguMeaning: 'కలవరపెట్టని, సత్యమైన, ప్రియమైన, హితమైన మాటలు చెప్పడం మరియు వేదాభ్యాసం చేయడం వాక్కు యొక్క తపస్సు.',
+    englishMeaning: 'Austerity of speech consists in speaking words that are truthful, pleasing, beneficial, and not agitating to others, and also in regularly reciting Vedic literature.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
-    chapterTeluguTitle: 'పద్దెనిమిదవ అధ్యాయము - మోక్ష సన్యాస యోగము',
-    verseNumber: '18.65',
-    sanskrit:
-        'मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु।\nमामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे॥',
-    transliteration:
-        'man-mana bhava mad-bhakto mad-yaji mam namaskuru\nmam evaishyasi satyam te pratijane priyo si me',
-    teluguMeaning:
-        'నీ మనస్సును నాపై నిలుపు, నా భక్తుడవు కా, నన్ను పూజించు, నాకు నమస్కరించు. నువ్వు నిశ్చయంగా నన్నే చేరుకుంటావు. నువ్వు నాకు అత్యంత ప్రియమైన వాడవు గనుక నేను నీకు ఈ సత్యమైన ప్రతిజ్ఞ చేస్తున్నాను.',
-    englishMeaning:
-        'Always think of Me, become My devotee, worship Me and offer your homage unto Me. Thus you will come to Me without fail. I promise you this because you are My very dear friend.',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
+    verseNumber: '18.17',
+    sanskrit: 'యస్య నాహంకృతో భావో బుద్ధిర్యస్య న లిప్యతే |\nహత్వాపి స ఇమాంల్లోకాన్న హంతి న నిబధ్యతే ||',
+    transliteration: 'yasya nāhaṃkṛto bhāvo buddhir yasya na lipyate | hatvāpi sa imāṃl lokān na hanti na nibadhyate ||',
+    teluguMeaning: 'ఎవనికి అహంకారం లేదో, బుద్ధి లిప్తమవదో, అతను ఈ లోకాలను చంపినా చంపినవాడు కాదు, బంధించబడడు.',
+    englishMeaning: 'One who is not motivated by false ego, whose intelligence is not entangled — though he kills men in this world, he does not kill, nor is he bound by his actions.',
   ),
   const Sloka(
     chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
-    chapterTeluguTitle: 'పద్దెనిమిదవ అధ్యాయము - మోక్ష సన్యాస యోగము',
-    verseNumber: '18.66',
-    sanskrit:
-        'सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज।\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥',
-    transliteration:
-        'sarva-dharman parityajya mam-ekam sharanam vraja\naham tva sarva-papebhyo mokshayishyami ma shuchah',
-    teluguMeaning:
-        'అన్ని ధర్మములను విడిచి నన్నొక్కడినే శరణు వేడుకో. నేను నిన్ను అన్ని పాపముల నుండి విముక్తుని చేస్తాను, దుఃఖించకు.',
-    englishMeaning:
-        'Abandon all varieties of duty and simply surrender unto Me alone. I shall liberate you from all sinful reactions; do not fear.',
-  ),
-  const Sloka(
-    chapterTitle: 'Chapter 18 - Moksha Sanyasa Yoga',
-    chapterTeluguTitle: 'పద్దెనిమిదవ అధ్యాయము - మోక్ష సన్యాస యోగము',
+    chapterTeluguTitle: 'అధ్యాయం 18 - మోక్ష సన్యాస యోగం',
     verseNumber: '18.78',
-    sanskrit:
-        'यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः।\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम॥',
-    transliteration:
-        'yatra yogeshvarah krishno yatra partho dhanur-dharah\ntatra shrir vijayo bhutir dhruva nitir matir mama',
-    teluguMeaning:
-        'ఎక్కడైతే యోగేశ్వరుడైన శ్రీకృష్ణుడు, ఎక్కడైతే విలుకాడైన అర్జునుడు ఉంటారో.. అక్కడ సంపద, విజయం, అసాధారణమైన శక్తి, స్థిరమైన నీతి నిశ్చయంగా ఉంటాయని నా నమ్మకం.',
-    englishMeaning:
-        'Wherever there is Krishna, the lord of all mystics, and wherever there is Arjuna, the supreme archer, there will also certainly be opulence, victory, extraordinary power, and morality. Of this I am certain.',
+    sanskrit: 'యత్ర యోగేశ్వరః కృష్ణో యత్ర పార్థో ధనుర్ధరః |\nతత్ర శ్రీర్విజయో భూతిర్ధ్రువా నీతిర్మతిర్మమ ||',
+    transliteration: 'yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanur-dharaḥ | tatra śrīr vijayo bhūtir dhruvā nītir matir mama ||',
+    teluguMeaning: 'ఎక్కడ యోగేశ్వరుడైన కృష్ణుడు ఉంటాడో, ఎక్కడ ధనుర్ధారి అర్జునుడు ఉంటాడో అక్కడ సంపద, విజయం, వైభవం, నిశ్చల నీతి ఉంటాయని నా మతం.',
+    englishMeaning: 'Wherever there is Krishna, the master of all mystics, and wherever there is Arjuna, the supreme archer, there will also certainly be opulence, victory, extraordinary power, and morality.',
   ),
 ];
